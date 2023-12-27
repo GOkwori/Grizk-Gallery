@@ -24,6 +24,7 @@ body {
     background-color: #4b4453;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*---------- HEADINGS & TEXT ----------*/
@@ -70,6 +71,38 @@ a {
     color: #fafafa;
 }
 
+/*---------- SEMANTIC SECTION ----------*/
+
+/*Styling for hero-image*/
+.hero-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image {
+    height: 80%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+
 /*---------- SEMANTIC FOOTER ----------*/
 
 #footer-p {
@@ -99,5 +132,9 @@ a {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+  }
+
+  .footer-container {
+    padding-top: 20px;
   }
   
