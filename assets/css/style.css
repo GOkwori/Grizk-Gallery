@@ -39,10 +39,23 @@ h1:hover {
     transform: scale(1.1);
 }
 
+h2 {
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Dancing Script', cursive;
+    transition: transform 0.3s ease-in-out;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
 p {
     color:#fafafa;
     font-family: 'Roboto Serif', serif;
-    font-size: 12px;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 15px;
 }
 
 a {
@@ -73,7 +86,7 @@ a {
 
 /*---------- SEMANTIC SECTION ----------*/
 
-/*Styling for hero-image*/
+/*Styling for hero-image on home page*/
 .hero-container {
     height: 100%;
     width: 100%;
@@ -82,11 +95,12 @@ a {
 }
 
 .hero-image {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    padding: 0 20px;
   }
   
   @keyframes fadeIn {
@@ -100,7 +114,7 @@ a {
   }
   
   .animate-fade-in {
-    animation: fadeIn 1.5s ease-in-out forwards;
+    animation: fadeIn 2.5s ease-in-out forwards;
   }
 
 /*---------- SEMANTIC FOOTER ----------*/
