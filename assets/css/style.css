@@ -1,5 +1,5 @@
 /*---------- GOOGLE FONTS IMPORT ----------*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Slab:wght@700&display=swap');
 
 :root {
     /*---------- TYPOGRAPHY ----------*/
@@ -7,15 +7,15 @@
     --content-text: 'Josefin Slab', serif;
   
     /*---------- COLOURS ----------*/
-    --off-white: #f5f5f5;
-    }
+    --white: #fafafa;
+}
 
 /* Removes all margins & Padding on everything so they can be fully customised */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
 
 /* Background image added to the body with a backup colour in case the image cannot load,
 Font to be used throughout the pages body */
@@ -24,4 +24,43 @@ body {
     background-color: #4b4453;
     background-size: cover;
     background-attachment: fixed;
-    }
+}
+
+/*---------- HEADINGS & TEXT ----------*/
+h1 {
+    text-align: justify;
+    color: #fafafa;
+    font-family: 'Dancing Script', cursive;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+}
+
+/* Styling for navigation items*/
+.nav-link {
+    color: #fafafa;
+}
+
+.nav-link:hover {
+    color: #fafafa;
+}
+
+/*---------- CONTAINERS ----------*/
+/* Semantic header */
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav-container {
+    background-color: none;
+    display: flex;
+    justify-content: flex-end;
+}
