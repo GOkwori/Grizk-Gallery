@@ -55,7 +55,7 @@ h3 {
     text-align: center;
     color: #fafafa;
     font-size: larger;
-  }
+}
 
 p {
     color:#fafafa;
@@ -108,9 +108,9 @@ a {
     background-size: cover;
     overflow: hidden;
     padding: 0 20px;
-  }
+}
   
-  @keyframes fadeIn {
+@keyframes fadeIn {
     from {
       opacity: 0;
     }
@@ -120,60 +120,60 @@ a {
     }
   }
   
-  .animate-fade-in {
+.animate-fade-in {
     animation: fadeIn 2.5s ease-in-out forwards;
-  }
+}
 
-  /*Container holding about-us sections on home page*/
-  #about-us {
+/*Container holding about-us sections on home page*/
+#about-us {
     padding-top: 10px;
-  }
+}
 
-  /*Container holding latest releases & upcoming exhibition sections on home page*/
-  #inner-section {
+/*Container holding latest releases & upcoming exhibition sections on home page*/
+#inner-section {
     height: 100%;
     width: auto;
     display: inline-block;
-  }
+}
 
-  /*Styling for latest release section of home page*/
-  #latest-release {
+/*Styling for latest release section of home page*/
+#latest-release {
     float: left;
     width: 50%;
-  }
+}
   
-  .image-grid {
+.image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     padding: 0 10px 0 20px;
-  }
+}
   
-  .image-grid img {
+.image-grid img {
     width: 100%;
-    height: 100%;
+    height: 150px;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
-  }
+}
   
-  .image-grid img:hover {
+.image-grid img:hover {
     transform: scale(1.1);
-  }
+}
 
 /*Styling for upcoming exhibitions on home page*/
 #exhibition-list {
     float: right;
     width: 50%;
-  }
+}
 
 .upcoming-exhibitions {
     width: 95%;
     display: flex;
     justify-content: center;
     padding: 20px 0 0 40px;
-  }
+}
   
-  .exhibition-list-item {
+.exhibition-list-item {
     padding: 0 20px;
     background-image: url(../images/abstract/1.jpg);
     background-repeat: no-repeat;
@@ -181,32 +181,32 @@ a {
     height: 70px;
     width: 100%;
     transition: transform 0.3s ease-in-out;
-  }
+}
   
-  .exhibition-list-item:hover {
+.exhibition-list-item:hover {
     transform: scale(1.1);
-  }
+}
   
-  .exhibition-date {
+.exhibition-date {
     color: #fafafa;
     width: auto;
     font-size: 12px;
-  }
+}
   
-  .exhibition-list-item p {
+.exhibition-list-item p {
     text-align: center;
     width: auto;
     font-size: 12px;
-  }
+}
   
-  .exhibition-list-item a {
+.exhibition-list-item a {
     font-size: 12px;
-  }
+}
   
-  .exhibition-list-item a:hover {
+.exhibition-list-item a:hover {
     text-decoration: none;
     color: #4b4453;
-  }
+}
   
 /*Styling location section of home page*/
 #location-thumbnail {
@@ -216,23 +216,36 @@ a {
     gap: 10px;
   }
   
-  #location-thumbnail img {
+#location-thumbnail img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
     margin-right: 20px;
-  }
+}
   
-  #location-thumbnail img:hover {
+#location-thumbnail img:hover {
     transform: scale(1.1);
-  }
+}
   
-  #location-thumbnail div p {
+#location-thumbnail div p {
     font-family: 'Roboto Serif', serif;
     text-align: center;
     padding-top: 5px;
-  }
+}
+
+/*Styling images on gallery page*/
+.image-container {
+    margin-bottom: 10px;
+}
+
+#gallery-container {
+    background-color: #fafafa;
+    background-color: fixed;
+    padding: 10px 0 5px 0;
+    margin: 0 15px 0 15px;
+}
+
   
 /*---------- SEMANTIC FOOTER ----------*/
 
