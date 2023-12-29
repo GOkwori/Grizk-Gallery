@@ -246,6 +246,28 @@ a {
     margin: 0 15px 0 15px;
 }
 
+/*Styling secondary navigation menu on gallery page*/
+#nav-container-sec { 
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/*Styling secondary search bar on gallery page*/
+.search-container {
+    padding-right: 20px;
+}
+
+#search-bar {
+    height: 25px;
+    font-size: 10px;
+}
+
+#search-button {
+    padding: 0;
+    font-family: 'Roboto Serif', serif;
+    font-size: 10px;
+    width: 80px;
+}
   
 /*---------- SEMANTIC FOOTER ----------*/
 
