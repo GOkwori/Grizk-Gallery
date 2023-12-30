@@ -305,6 +305,23 @@ a {
     float: right;
 }
   
+/*Styling booking form on booking page*/
+.booking-intro p {
+    padding: 0 20px;
+  }
+
+.mb-3 label {
+    font-family: 'Roboto Serif', serif;
+    color: #fafafa;
+    font-size: 13px;
+}
+  
+  #booking-form {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 ;
+  }
   
   
 /*---------- SEMANTIC FOOTER ----------*/
