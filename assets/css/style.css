@@ -252,7 +252,7 @@ a {
     margin-left: 0;
 }
 
-/*Styling secondary search bar on gallery page*/
+/*Styling search bar on gallery page*/
 .search-container {
     padding-right: 20px;
 }
@@ -268,6 +268,46 @@ a {
     font-size: 10px;
     width: 80px;
 }
+
+/*Styling video & exhibition content on exhibition page*/
+#exhibition-intro {
+    padding: 0 20px;
+}
+
+#section-container {
+    display: flex;
+    justify-content: inline-block;
+    height: auto;
+    background-color: #fafafa;
+    background-size: contain;
+    margin: 0 20px;
+}
+  
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+  
+#video {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+  
+#exhibition-page-items {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    float: right;
+}
+  
+  
   
 /*---------- SEMANTIC FOOTER ----------*/
 
