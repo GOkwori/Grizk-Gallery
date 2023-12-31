@@ -35,6 +35,10 @@ body {
     width: 100%;
 }
 
+.screen-view {
+    height: 100vh;
+}
+
 /*---------- HEADINGS & TEXT ----------*/
 h1 {
     text-align: justify;
