@@ -27,6 +27,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.opaque-overlay {
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
 /*---------- HEADINGS & TEXT ----------*/
 h1 {
     text-align: justify;
@@ -240,7 +248,6 @@ a {
 }
 
 #gallery-container {
-    background-color: #fafafa;
     padding: 10px 5px 5px 0;
     margin: 0 15px 0 15px;
 }
@@ -276,8 +283,6 @@ a {
 #section-container {
     display: flex;
     height: auto;
-    background-color: #fafafa;
-    background-size: contain;
     margin: 0 20px;
 }
   
@@ -307,21 +312,14 @@ a {
   
 /*Styling booking form on booking page*/
 .booking-intro p {
-    padding: 0 20px;
-  }
+    padding-right: 20px;
+}
 
 .mb-3 label {
     font-family: 'Roboto Serif', serif;
     color: #fafafa;
     font-size: 13px;
 }
-  
-  #booking-form {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 0 ;
-  }
   
   
 /*---------- SEMANTIC FOOTER ----------*/
