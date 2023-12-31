@@ -12,296 +12,298 @@
     <title>Grizk Art Gallery</title>
 </head>
 <body>
-    <header>
-        <!--Header Container-->
-        <div class="container-fluid text-center">
-            <div class="row">
-                <!--Logo container-->
-                <div class="col-3">
-                    <a href="index.html"><h1>Grizk Art Gallery</h1></a>
+    <article class="opaque-overlay">
+        <header>
+            <!--Header Container-->
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <!--Logo container-->
+                    <div class="col-3">
+                        <a href="index.html"><h1>Grizk Art Gallery</h1></a>
+                    </div>
+                    <!--Navigation items container-->
+                    <div class="col-9" id="nav-container">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">    
+                                <ul class="navbar-nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html" >Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="exhibition.html">Exhibition</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="booking.html">Book Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-                <!--Navigation items container-->
-                <div class="col-9" id="nav-container">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid">    
-                            <ul class="navbar-nav nav-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html" >Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="exhibition.html">Exhibition</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="booking.html">Book Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+            </div>
+        </header>
+        <!--Section Container-->  
+        <div>
+            <!--Navigation panel for various art category & search bar for searching individual artwork-->
+            <div class="container-fluid" id="nav-container-sec">
+                <div class="row">
+                    <!--Navigation items container-->
+                    <div class="col-9">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">    
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-brand" href="#anime">Anime</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-brand" href="#abstract">Abstract</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-brand" href="#buildings">Buildings</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-brand" href="#digital">Digital</a>
+                                    </li>                                
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!--Search bar container-->
+                    <div class="col-3 search-container">
+                        <form class="d-flex"  id="search-bar" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button  id="search-button" class="btn btn-outline-light container-fluid" type="submit">Search</button>
+                        </form>
+                    </div>  
+                </div>
+            </div>
+            <!--Container for gallery images/artwork-->
+            <div id="gallery-container">
+                <!--Anime section of gallery page-->
+                <div id="anime">
+                    <div class="image-grid image-container">
+                        <a href="assets/images/anime/1.jpg" target="_blank">
+                            <img src="assets/images/anime/1.jpg" alt="picture of kenshin">
+                        </a>
+                        <a href="assets/images/anime/2.jpg" target="_blank">
+                            <img src="assets/images/anime/2.jpg" alt="picture of kenshin">
+                        </a>
+                        <a href="assets/images/anime/3.jpg" target="_blank">
+                            <img src="assets/images/anime/3.jpg" alt="artwork of kenshin">
+                        </a>
+                        <a href="assets/images/anime/4.jpg" target="_blank">
+                            <img src="assets/images/anime/4.jpg" alt="red background art of kenshin">
+                        </a>
+                        <a href="assets/images/anime/5.jpg" target="_blank">
+                            <img src="assets/images/anime/5.jpg" alt="black background art of kenshin">
+                        </a>
+                        <a href="assets/images/anime/6.jpg" target="_blank">
+                            <img src="assets/images/anime/6.jpg" alt="white background art of kenshin">
+                        </a>
+                        <a href="assets/images/anime/7.jpg" target="_blank">
+                            <img src="assets/images/anime/7.jpg" alt="artwork of an anime">
+                        </a>
+                        <a href="assets/images/anime/8.jpg" target="_blank">
+                            <img src="assets/images/anime/8.jpg" alt="artwork of kenshin">
+                        </a>
+                        <a href="assets/images/anime/10.jpg" target="_blank">
+                            <img src="assets/images/anime/10.jpg" alt="anime of gaara">
+                        </a>
+                        <a href="assets/images/anime/11.jpg" target="_blank">
+                            <img src="assets/images/anime/11.jpg" alt="artwork of kakashi">
+                        </a>
+                        <a href="assets/images/anime/12.jpg" target="_blank">
+                            <img src="assets/images/anime/12.jpg" alt="artwork of a samurai village">
+                        </a>
+                        <a href="assets/images/anime/14.jpg" target="_blank">
+                            <img src="assets/images/anime/14.jpg" alt="picture of groot">
+                        </a>
+                        <a href="assets/images/anime/15.jpg" target="_blank">
+                            <img src="assets/images/anime/15.jpg" alt="picture of gaara">
+                        </a>
+                        <a href="assets/images/anime/17.jpg" target="_blank">
+                            <img src="assets/images/anime/17.jpg" alt="artwork of a lost samurai">
+                        </a>
+                        <a href="assets/images/anime/18.jpg" target="_blank">
+                            <img src="assets/images/anime/18.jpg" alt="anime of hinata of the hyuga clan">
+                        </a>
+                        <a href="assets/images/anime/19.jpg" target="_blank">
+                            <img src="assets/images/anime/19.jpg" alt="anime of sasuke uchiha">
+                        </a>
+                        <a href="assets/images/anime/20.jpg" target="_blank">
+                            <img src="assets/images/anime/20.jpg" alt="artwork a hidden samurai">
+                        </a>
+                        <a href="assets/images/anime/21.jpg" target="_blank">
+                            <img src="assets/images/anime/21.jpg" alt="anime of kakashi">
+                        </a>
+                        <a href="assets/images/anime/22.jpg" target="_blank">
+                            <img src="assets/images/anime/22.jpg" alt="artwork of a samurai on a dark background">
+                        </a>
+                        <a href="assets/images/anime/23.jpg" target="_blank">
+                            <img src="assets/images/anime/23.jpg" alt="anime of the uchiha clan">
+                        </a>
+                    </div>
+                </div>
+                <!--Abstract section of gallery page-->
+                <div id="abstract">
+                    <div class="image-grid image-container">
+                        <a href="assets/images/abstract/1.jpg" target="_blank">
+                            <img src="assets/images/abstract/1.jpg" alt="artwork of a colourful landscape">
+                        </a>
+                        <a href="assets/images/abstract/2.jpg" target="_blank">
+                            <img src="assets/images/abstract/2.jpg" alt="artwork of a nightview">
+                        </a>
+                        <a href="assets/images/abstract/3.jpg" target="_blank">
+                            <img src="assets/images/abstract/3.jpg" alt="artwork of a colourful landscape">
+                        </a>
+                        <a href="assets/images/abstract/4.jpg" target="_blank">
+                            <img src="assets/images/abstract/4.jpg" alt="artwork of a lovely night mountain scene">
+                        </a>
+                        <a href="assets/images/abstract/5.jpg" target="_blank">
+                            <img src="assets/images/abstract/5.jpg" alt="picture of the night sky">
+                        </a>
+                        <a href="assets/images/abstract/6.jpg" target="_blank">
+                            <img src="assets/images/abstract/6.jpg" alt="picture of the mixed coloured landscape">
+                        </a>
+                        <a href="assets/images/abstract/7.jpg" target="_blank">
+                            <img src="assets/images/abstract/7.jpg" alt="an astract view with multiple shades of different colours">
+                        </a>
+                        <a href="assets/images/abstract/8.jpg" target="_blank">
+                            <img src="assets/images/abstract/8.jpg" alt="a beatiful valley scene in a blue theme">
+                        </a>
+                        <a href="assets/images/abstract/9.jpg" target="_blank">
+                            <img src="assets/images/abstract/9.jpg" alt="a black abstract background">
+                        </a>
+                        <a href="assets/images/abstract/10.jpg" target="_blank">
+                            <img src="assets/images/abstract/10.jpg" alt="artwork of a beautiful city scene">
+                        </a>
+                        <a href="assets/images/abstract/11.jpg" target="_blank">
+                            <img src="assets/images/abstract/11.jpg" alt="artwork of a beautiful mountain scene">
+                        </a>
+                        <a href="assets/images/abstract/12.jpg" target="_blank">
+                            <img src="assets/images/abstract/12.jpg" alt="picture of the night sky">
+                        </a>
+                        <a href="assets/images/abstract/13.jpg" target="_blank">
+                            <img src="assets/images/abstract/13.jpg" alt="picture of an abstract object">
+                        </a>
+                    </div>
+                </div>
+                <!--Building section of gallery page-->
+                <div id="buildings">
+                    <div class="image-grid image-container">
+                        <a href="assets/images/buildings/1.jpg" target="_blank">
+                            <img src="assets/images/buildings/1.jpg" alt="artwork of a colourful night drive in the city">
+                        </a>
+                        <a href="assets/images/buildings/12.jpg" target="_blank">
+                            <img src="assets/images/buildings/12.jpg" alt="artwork of a house on an island">
+                        </a>
+                        <a href="assets/images/buildings/11.jpg" target="_blank">
+                            <img src="assets/images/buildings/11.jpg" alt="artwork of spiderman and buildings">
+                        </a>
+                        <a href="assets/images/buildings/4.jpg" target="_blank">
+                            <img src="assets/images/buildings/4.jpg" alt="artwork of the night life in the city">
+                        </a>
+                        <a href="assets/images/buildings/5.jpg" target="_blank">
+                            <img src="assets/images/buildings/5.jpg" alt="picture of colourful buildings on an island">
+                        </a>
+                        <a href="assets/images/buildings/6.jpg" target="_blank">
+                            <img src="assets/images/buildings/6.jpg" alt="abstract art of builngs">
+                        </a>
+                        <a href="assets/images/buildings/7.jpg" target="_blank">
+                            <img src="assets/images/buildings/7.jpg" alt="artwork of buildings in a city">
+                        </a>
+                        <a href="assets/images/buildings/8.jpg" target="_blank">
+                            <img src="assets/images/buildings/8.jpg" alt="night view of buildings in a city">
+                        </a>
+                        <a href="assets/images/buildings/9.jpg" target="_blank">
+                            <img src="assets/images/buildings/9.jpg" alt="perspective art of buildings">
+                        </a>
+                        <a href="assets/images/buildings/10.jpg" target="_blank">
+                            <img src="assets/images/buildings/10.jpg" alt="artwork of buildings in a city">
+                        </a>
+                    </div>
+                </div>
+                <!--Digital section of gallery page-->
+                <div id="digital">
+                    <div class="image-grid image-container">
+                        <a href="assets/images/digital/1.jpg" target="_blank">
+                            <img src="assets/images/digital/1.jpg" alt="artwork of a kitana">
+                        </a>
+                        <a href="assets/images/digital/2.jpg" target="_blank">
+                            <img src="assets/images/digital/2.jpg" alt="artwork of a bird flying">
+                        </a>
+                        <a href="assets/images/digital/3.jpg" target="_blank">
+                            <img src="assets/images/digital/3.jpg" alt="artwork of an eagle">
+                        </a>
+                        <a href="assets/images/digital/4.jpg" target="_blank">
+                            <img src="assets/images/digital/4.jpg" alt="artwork of digital cubes">
+                        </a>
+                        <a href="assets/images/digital/5.jpg" target="_blank">
+                            <img src="assets/images/digital/5.jpg" alt="artwork of microsoft windows home page">
+                        </a>
+                        <a href="assets/images/digital/6.jpg" target="_blank">
+                            <img src="assets/images/digital/6.jpg" alt="artwork of haloween monsters">
+                        </a>
+                        <a href="assets/images/digital/7.jpg" target="_blank">
+                            <img src="assets/images/digital/7.jpg" alt="magnificent art of a ship on sea">
+                        </a>
+                        <a href="assets/images/digital/8.jpg" target="_blank">
+                            <img src="assets/images/digital/8.jpg" alt="colourful piece showing a car at a gas station">
+                        </a>
+                        <a href="assets/images/digital/9.jpg" target="_blank">
+                            <img src="assets/images/digital/9.jpg" alt="artwork of spiderman">
+                        </a>
+                        <a href="assets/images/digital/10.jpg" target="_blank">
+                            <img src="assets/images/digital/10.jpg" alt="digital artwork of groot">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-     <!--Section Container-->  
-    <div>
-        <!--Navigation panel for various art category & search bar for searching individual artwork-->
-        <div class="container-fluid" id="nav-container-sec">
-            <div class="row">
-                <!--Navigation items container-->
-                <div class="col-9">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid">    
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link navbar-brand" href="#anime">Anime</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navbar-brand" href="#abstract">Abstract</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navbar-brand" href="#buildings">Buildings</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navbar-brand" href="#digital">Digital</a>
-                                </li>                                
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-                <!--Search bar container-->
-                <div class="col-3 search-container">
-                    <form class="d-flex"  id="search-bar" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button  id="search-button" class="btn btn-outline-light container-fluid" type="submit">Search</button>
-                    </form>
-                </div>  
-            </div>
-        </div>
-        <!--Container for gallery images/artwork-->
-        <div id="gallery-container">
-            <!--Anime section of gallery page-->
-            <div id="anime">
-                <div class="image-grid image-container">
-                    <a href="assets/images/anime/1.jpg" target="_blank">
-                        <img src="assets/images/anime/1.jpg" alt="picture of kenshin">
-                    </a>
-                    <a href="assets/images/anime/2.jpg" target="_blank">
-                        <img src="assets/images/anime/2.jpg" alt="picture of kenshin">
-                    </a>
-                    <a href="assets/images/anime/3.jpg" target="_blank">
-                        <img src="assets/images/anime/3.jpg" alt="artwork of kenshin">
-                    </a>
-                    <a href="assets/images/anime/4.jpg" target="_blank">
-                        <img src="assets/images/anime/4.jpg" alt="red background art of kenshin">
-                    </a>
-                    <a href="assets/images/anime/5.jpg" target="_blank">
-                        <img src="assets/images/anime/5.jpg" alt="black background art of kenshin">
-                    </a>
-                    <a href="assets/images/anime/6.jpg" target="_blank">
-                        <img src="assets/images/anime/6.jpg" alt="white background art of kenshin">
-                    </a>
-                    <a href="assets/images/anime/7.jpg" target="_blank">
-                        <img src="assets/images/anime/7.jpg" alt="artwork of an anime">
-                    </a>
-                    <a href="assets/images/anime/8.jpg" target="_blank">
-                        <img src="assets/images/anime/8.jpg" alt="artwork of kenshin">
-                    </a>
-                    <a href="assets/images/anime/10.jpg" target="_blank">
-                        <img src="assets/images/anime/10.jpg" alt="anime of gaara">
-                    </a>
-                    <a href="assets/images/anime/11.jpg" target="_blank">
-                        <img src="assets/images/anime/11.jpg" alt="artwork of kakashi">
-                    </a>
-                    <a href="assets/images/anime/12.jpg" target="_blank">
-                        <img src="assets/images/anime/12.jpg" alt="artwork of a samurai village">
-                    </a>
-                    <a href="assets/images/anime/14.jpg" target="_blank">
-                        <img src="assets/images/anime/14.jpg" alt="picture of groot">
-                    </a>
-                    <a href="assets/images/anime/15.jpg" target="_blank">
-                        <img src="assets/images/anime/15.jpg" alt="picture of gaara">
-                    </a>
-                    <a href="assets/images/anime/17.jpg" target="_blank">
-                        <img src="assets/images/anime/17.jpg" alt="artwork of a lost samurai">
-                    </a>
-                    <a href="assets/images/anime/18.jpg" target="_blank">
-                        <img src="assets/images/anime/18.jpg" alt="anime of hinata of the hyuga clan">
-                    </a>
-                    <a href="assets/images/anime/19.jpg" target="_blank">
-                        <img src="assets/images/anime/19.jpg" alt="anime of sasuke uchiha">
-                    </a>
-                    <a href="assets/images/anime/20.jpg" target="_blank">
-                        <img src="assets/images/anime/20.jpg" alt="artwork a hidden samurai">
-                    </a>
-                    <a href="assets/images/anime/21.jpg" target="_blank">
-                        <img src="assets/images/anime/21.jpg" alt="anime of kakashi">
-                    </a>
-                    <a href="assets/images/anime/22.jpg" target="_blank">
-                        <img src="assets/images/anime/22.jpg" alt="artwork of a samurai on a dark background">
-                    </a>
-                    <a href="assets/images/anime/23.jpg" target="_blank">
-                        <img src="assets/images/anime/23.jpg" alt="anime of the uchiha clan">
-                    </a>
+        <!--Footer Container-->
+        <footer class="opaque-overlay">
+            <div class="container-fluid">
+                <div class="row footer-container">
+                    <!--Paragraph container-->
+                    <div class="col-6">
+                        <p id="footer-p">All rights reserved © GrizkArtGallery 2023</p>  
+                    </div>
+                    <!--Social media links container-->
+                    <div class="col-6" id="socialmedia-container">
+                        <ul class="list-inline social-media">
+                            <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a target="_blank" href="https://www.twitter.com/">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <!--Abstract section of gallery page-->
-            <div id="abstract">
-                <div class="image-grid image-container">
-                    <a href="assets/images/abstract/1.jpg" target="_blank">
-                        <img src="assets/images/abstract/1.jpg" alt="artwork of a colourful landscape">
-                    </a>
-                    <a href="assets/images/abstract/2.jpg" target="_blank">
-                        <img src="assets/images/abstract/2.jpg" alt="artwork of a nightview">
-                    </a>
-                    <a href="assets/images/abstract/3.jpg" target="_blank">
-                        <img src="assets/images/abstract/3.jpg" alt="artwork of a colourful landscape">
-                    </a>
-                    <a href="assets/images/abstract/4.jpg" target="_blank">
-                        <img src="assets/images/abstract/4.jpg" alt="artwork of a lovely night mountain scene">
-                    </a>
-                    <a href="assets/images/abstract/5.jpg" target="_blank">
-                        <img src="assets/images/abstract/5.jpg" alt="picture of the night sky">
-                    </a>
-                    <a href="assets/images/abstract/6.jpg" target="_blank">
-                        <img src="assets/images/abstract/6.jpg" alt="picture of the mixed coloured landscape">
-                    </a>
-                    <a href="assets/images/abstract/7.jpg" target="_blank">
-                        <img src="assets/images/abstract/7.jpg" alt="an astract view with multiple shades of different colours">
-                    </a>
-                    <a href="assets/images/abstract/8.jpg" target="_blank">
-                        <img src="assets/images/abstract/8.jpg" alt="a beatiful valley scene in a blue theme">
-                    </a>
-                    <a href="assets/images/abstract/9.jpg" target="_blank">
-                        <img src="assets/images/abstract/9.jpg" alt="a black abstract background">
-                    </a>
-                    <a href="assets/images/abstract/10.jpg" target="_blank">
-                        <img src="assets/images/abstract/10.jpg" alt="artwork of a beautiful city scene">
-                    </a>
-                    <a href="assets/images/abstract/11.jpg" target="_blank">
-                        <img src="assets/images/abstract/11.jpg" alt="artwork of a beautiful mountain scene">
-                    </a>
-                    <a href="assets/images/abstract/12.jpg" target="_blank">
-                        <img src="assets/images/abstract/12.jpg" alt="picture of the night sky">
-                    </a>
-                    <a href="assets/images/abstract/13.jpg" target="_blank">
-                        <img src="assets/images/abstract/13.jpg" alt="picture of an abstract object">
-                    </a>
-                </div>
-            </div>
-            <!--Building section of gallery page-->
-            <div id="buildings">
-                <div class="image-grid image-container">
-                    <a href="assets/images/buildings/1.jpg" target="_blank">
-                        <img src="assets/images/buildings/1.jpg" alt="artwork of a colourful night drive in the city">
-                    </a>
-                    <a href="assets/images/buildings/12.jpg" target="_blank">
-                        <img src="assets/images/buildings/12.jpg" alt="artwork of a house on an island">
-                    </a>
-                    <a href="assets/images/buildings/11.jpg" target="_blank">
-                        <img src="assets/images/buildings/11.jpg" alt="artwork of spiderman and buildings">
-                    </a>
-                    <a href="assets/images/buildings/4.jpg" target="_blank">
-                        <img src="assets/images/buildings/4.jpg" alt="artwork of the night life in the city">
-                    </a>
-                    <a href="assets/images/buildings/5.jpg" target="_blank">
-                        <img src="assets/images/buildings/5.jpg" alt="picture of colourful buildings on an island">
-                    </a>
-                    <a href="assets/images/buildings/6.jpg" target="_blank">
-                        <img src="assets/images/buildings/6.jpg" alt="abstract art of builngs">
-                    </a>
-                    <a href="assets/images/buildings/7.jpg" target="_blank">
-                        <img src="assets/images/buildings/7.jpg" alt="artwork of buildings in a city">
-                    </a>
-                    <a href="assets/images/buildings/8.jpg" target="_blank">
-                        <img src="assets/images/buildings/8.jpg" alt="night view of buildings in a city">
-                    </a>
-                    <a href="assets/images/buildings/9.jpg" target="_blank">
-                        <img src="assets/images/buildings/9.jpg" alt="perspective art of buildings">
-                    </a>
-                    <a href="assets/images/buildings/10.jpg" target="_blank">
-                        <img src="assets/images/buildings/10.jpg" alt="artwork of buildings in a city">
-                    </a>
-                </div>
-            </div>
-            <!--Digital section of gallery page-->
-            <div id="digital">
-                <div class="image-grid image-container">
-                    <a href="assets/images/digital/1.jpg" target="_blank">
-                        <img src="assets/images/digital/1.jpg" alt="artwork of a kitana">
-                    </a>
-                    <a href="assets/images/digital/2.jpg" target="_blank">
-                        <img src="assets/images/digital/2.jpg" alt="artwork of a bird flying">
-                    </a>
-                    <a href="assets/images/digital/3.jpg" target="_blank">
-                        <img src="assets/images/digital/3.jpg" alt="artwork of an eagle">
-                    </a>
-                    <a href="assets/images/digital/4.jpg" target="_blank">
-                        <img src="assets/images/digital/4.jpg" alt="artwork of digital cubes">
-                    </a>
-                    <a href="assets/images/digital/5.jpg" target="_blank">
-                        <img src="assets/images/digital/5.jpg" alt="artwork of microsoft windows home page">
-                    </a>
-                    <a href="assets/images/digital/6.jpg" target="_blank">
-                        <img src="assets/images/digital/6.jpg" alt="artwork of haloween monsters">
-                    </a>
-                    <a href="assets/images/digital/7.jpg" target="_blank">
-                        <img src="assets/images/digital/7.jpg" alt="magnificent art of a ship on sea">
-                    </a>
-                    <a href="assets/images/digital/8.jpg" target="_blank">
-                        <img src="assets/images/digital/8.jpg" alt="colourful piece showing a car at a gas station">
-                    </a>
-                    <a href="assets/images/digital/9.jpg" target="_blank">
-                        <img src="assets/images/digital/9.jpg" alt="artwork of spiderman">
-                    </a>
-                    <a href="assets/images/digital/10.jpg" target="_blank">
-                        <img src="assets/images/digital/10.jpg" alt="digital artwork of groot">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Footer Container-->
-    <footer>
-        <div class="container-fluid">
-            <div class="row footer-container">
-                <!--Paragraph container-->
-                <div class="col-6">
-                    <p id="footer-p">All rights reserved © GrizkArtGallery 2023</p>  
-                </div>
-                <!--Social media links container-->
-                <div class="col-6" id="socialmedia-container">
-                    <ul class="list-inline social-media">
-                        <li class="list-inline-item">
-                          <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                          </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a target="_blank" href="https://www.twitter.com/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                          </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a target="_blank" href="https://www.instagram.com/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                          </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                          </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
-    </footer>
+        </footer>
+    </article>
 </body>
 </html>
