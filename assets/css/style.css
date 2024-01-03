@@ -35,11 +35,6 @@ body {
     width: auto;
 }
 
-.screen-view {
-    height: 100vh;
-}
-
-
 /*---------- HEADINGS & TEXT ----------*/
 h1 {
     text-align: justify;
@@ -308,6 +303,10 @@ a {
 /*Styling booking form on booking page*/
 .booking-intro p {
     padding-right: 20px;
+}
+
+#booking-form {
+    margin-bottom: 40px;
 }
 
 .mb-3 label {
