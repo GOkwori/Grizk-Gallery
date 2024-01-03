@@ -39,6 +39,7 @@ body {
     height: 100vh;
 }
 
+
 /*---------- HEADINGS & TEXT ----------*/
 h1 {
     text-align: justify;
@@ -262,6 +263,7 @@ a {
 }
 
 #gallery-container {
+    background-color: #fafafa;
     padding: 10px 5px 5px 0;
     margin: 0 15px 0 15px;
 }
