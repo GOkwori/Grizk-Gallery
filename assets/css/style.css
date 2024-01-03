@@ -296,34 +296,13 @@ a {
     padding: 0 20px;
 }
 
-#section-container {
-    display: flex;
-    height: auto;
-    margin: 0 20px;
-}
-  
-.video-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-}
-  
-#video {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-  
+
 #exhibition-page-items {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 120%;
-    float: right;
+    width: 100%;
+    margin-bottom: 20px;
 }
   
 /*Styling booking form on booking page*/
