@@ -25,14 +25,16 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow-y: scroll;
 }
 
 .opaque-overlay {
     background-color: rgba(0,0,0,0.5);
     top: 0;
     left: 0;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
 }
 
 /*---------- HEADINGS & TEXT ----------*/
@@ -314,7 +316,22 @@ a {
     color: #fafafa;
     font-size: 13px;
 }
-  
+
+/*Style modal*/
+.modal {
+    background-size: contain;
+    overflow-y: auto;
+}
+
+.modal-title {
+    color: black;
+    font-family: 'Roboto Serif', serif;
+}
+
+.modal-body {
+    color: black;
+    font-family: 'Roboto Serif', serif;
+}
   
 /*---------- SEMANTIC FOOTER ----------*/
 
