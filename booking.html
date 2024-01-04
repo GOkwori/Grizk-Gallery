@@ -109,9 +109,30 @@
                             <textarea id="description" class="form-control" rows="4" placeholder="Brief description of your artwork" required></textarea>
                         </div>
                     </div>
+                    <!--Submit Button-->
                     <div class="row">
                         <div class="col-sm-6 d-flex justify-content-center">
-                            <button type="submit" id="form-button" class="btn btn-light">Book Now</button>
+                            <button type="submit" id="form-button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Submited</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Thank you for sending your booking request!
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="index.html">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -156,9 +177,22 @@
                     </div>
                 </div>
             </div>
-
         </footer>
     </article> 
+    <!-- JavaScript to prevent form submission -->
+    <script>
+        document.getElementById('booking-form').addEventListener('submit', function (event) {
+            // Prevent the default form submission
+            event.preventDefault();
+
+            // You can add additional logic here if needed
+
+            // Show the modal
+            var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+            myModal.show();
+        });
+    </script>
+    <!-- JavaScript to enable toggler button -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>
