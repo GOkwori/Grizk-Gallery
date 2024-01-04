@@ -426,9 +426,28 @@ a {
         margin-left: 15px;
     }
 
+    .search-container {
+        padding: 0 0 20px 30px;
+    }
+
     #footer-p {
         font-size: 8px;
     }
-}
 
+    #section-container {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .upcoming-exhibitions {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 0 20px;
+    }
+
+    #booking-form {
+        margin-bottom: 40px;
+        padding: 0 20px 0 0;
+    }
 }

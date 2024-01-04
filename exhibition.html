@@ -1,245 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Stylesheets-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!--Page Title-->
     <title>Grizk Art Gallery</title>
-</head>
-<body>
+  </head>
+  <body>
     <article class="opaque-overlay">
-        <header>
-            <!--Header Container-->
-            <div class="container-fluid text-center">
-                <div class="row">
-                    <!--Logo container-->
-                    <div class="col-8 col-sm-8 col-md-6 col-lg-4" id="h1-container">
-                        <a href="index.html">
-                            <h1>Grizk Art Gallery</h1>
-                        </a>
-                    </div>
-                    <!--Navigation items container-->
-                    <div class="col-4 col-sm-4 col-md-6 col-lg-8" id="nav-container">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid">
-                                <!-- Toggler button for mobile devices -->
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                                    <ul class="navbar-nav nav-tabs me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="index.html">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="gallery.html">Gallery</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="exhibition.html">Exhibition</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="booking.html">Book Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+      <header>
+        <!--Header Container-->
+        <div class="container-fluid text-center">
+          <div class="row">
+            <!--Logo container-->
+            <div class="col-8 col-sm-8 col-md-6 col-lg-4" id="h1-container">
+              <a href="index.html">
+                <h1>Grizk Art Gallery</h1>
+              </a>
             </div>
-        </header>
-        <!--Section Container-->  
-        <section>
-            <div class="container-fluid" id="nav-container-sec">
-                <div class="row">
-                    <div class="col-9">
-                        <h2>Upcoming Exhibitions</h2> 
-                    </div>
-                    <!--Search bar container-->
-                    <div class="col-3 search-container">
-                        <form class="d-flex"  id="search-bar" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button  id="search-button" class="btn btn-outline-light container-fluid" type="submit">Search</button>
-                        </form>
-                    </div>  
+            <!--Navigation items container-->
+            <div class="col-4 col-sm-4 col-md-6 col-lg-8" id="nav-container">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <!-- Toggler button for mobile devices -->
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarTogglerDemo03"
+                  >
+                    <ul class="navbar-nav nav-tabs me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          aria-current="page"
+                          href="exhibition.html"
+                          >Exhibition</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book Us</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+              </nav>
             </div>
-            <div id="exhibition-intro">
-                <p> Step into the realm of creativity and imagination as we proudly present our upcoming exhibition, an immersive showcase of artistic brilliance.
-                    Join us for an unforgettable journey through captivating artworks that transcend boundaries and captivate the senses.</p>
+          </div>
+        </div>
+      </header>
+      <!--Section Container-->
+      <section>
+        <div class="container-fluid d-none d-sm-block" id="nav-container-sec">
+          <div class="row">
+            <div class="col-9">
+              <h2>Upcoming Exhibitions</h2>
             </div>
-            <!--Container for exhibition slides & upcoming events-->
-            <div class="row" id="section-container">
-                <div class="col image-container">
-                    <!--Exhibition carousel-->
-                    <div class="image-grid">
-                        <a href="assets/images/exhibition/9.jpg" target="_blank">
-                            <img src="assets/images/exhibition/9.jpg" class="img-thumbnail" alt="a blank painting">
-                        </a>
-                        <a href="assets/images/exhibition/8.jpg" target="_blank">
-                            <img src="assets/images/exhibition/8.jpg" class="img-thumbnail" alt="an art show banner">
-                        </a>
-                        <a href="assets/images/exhibition/10.jpg" target="_blank">
-                            <img src="assets/images/exhibition/10.jpg" class="img-thumbnail" alt="artwork collections">
-                        </a>
-                        <a href="assets/images/exhibition/11.jpg" target="_blank">
-                            <img src="assets/images/exhibition/11.jpg" class="img-thumbnail" alt="an art gallery hall way">
-                        </a>
-                        <a href="assets/images/exhibition/12.jpg" target="_blank">
-                            <img src="assets/images/exhibition/12.jpg" class="img-thumbnail" alt="an abstract expression">
-                        </a>
-                        <a href="assets/images/exhibition/7.jpg" target="_blank">
-                            <img src="assets/images/exhibition/7.jpg" class="img-thumbnail" alt="an artist with an artwork">
-                        </a>
-                    </div>
+            <!--Search bar container-->
+            <div class="col-3 search-container">
+              <form class="d-flex" id="search-bar" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  id="search-button"
+                  class="btn btn-outline-light container-fluid"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="exhibition-intro">
+          <p>
+            Step into the realm of creativity and imagination as we proudly
+            present our upcoming exhibition, an immersive showcase of artistic
+            brilliance. Join us for an unforgettable journey through captivating
+            artworks that transcend boundaries and captivate the senses.
+          </p>
+        </div>
+        <!--Container for exhibition slides & upcoming events-->
+        <div class="row" id="section-container">
+          <div class="col image-container">
+            <!--Exhibition images-->
+            <div class="image-grid">
+              <a href="assets/images/exhibition/9.jpg" target="_blank">
+                <img
+                  src="assets/images/exhibition/9.jpg"
+                  class="img-thumbnail"
+                  alt="a blank painting"
+                />
+              </a>
+              <a href="assets/images/exhibition/8.jpg" target="_blank">
+                <img
+                  src="assets/images/exhibition/8.jpg"
+                  class="img-thumbnail"
+                  alt="an art show banner"
+                />
+              </a>
+              <a href="assets/images/exhibition/10.jpg" target="_blank">
+                <img
+                  src="assets/images/exhibition/10.jpg"
+                  class="img-thumbnail"
+                  alt="artwork collections"
+                />
+              </a>
+              <a href="assets/images/exhibition/11.jpg" target="_blank">
+                <img
+                  src="assets/images/exhibition/11.jpg"
+                  class="img-thumbnail"
+                  alt="an art gallery hall way"
+                />
+              </a>
+              <a href="assets/images/exhibition/12.jpg" target="_blank">
+                <img
+                  src="assets/images/exhibition/12.jpg"
+                  class="img-thumbnail"
+                  alt="an abstract expression"
+                />
+              </a>
+              <a href="assets/images/exhibition/7.jpg" target="_blank">
+                <img
+                  src="assets/images/exhibition/7.jpg"
+                  class="img-thumbnail"
+                  alt="an artist with an artwork"
+                />
+              </a>
+            </div>
+          </div>
+          <!--Upcoming exhibitions-->
+          <div class="col" id="exhibition-page-items">
+            <div class="upcoming-exhibitions">
+              <div class="exhibition-list-item border rounded row g-3">
+                <div class="col exhibition-date">December 25, 2023</div>
+                <div class="col-6">
+                  <h3>Philippine Arena</h3>
+                  <p>Manila</p>
                 </div>
-                <!--Upcoming exhibitions-->
-                <div class="col" id="exhibition-page-items">
-                    <div class="upcoming-exhibitions">
-                        <div class="exhibition-list-item border rounded row g-3">
-                            <div class="col exhibition-date">December 25, 2023</div>
-                            <div class="col-6">
-                                <h3>Philippine Arena</h3>
-                                <p>Manila</p>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Details</a>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Ticket</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="upcoming-exhibitions">
-                        <div class="exhibition-list-item border rounded row g-3">
-                            <div class="col exhibition-date">December 30, 2023</div>
-                            <div class="col-6">
-                                <h3>Singapore Stadium</h3>
-                                <p>Singapore</p>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank" >Details</a>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Ticket</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="upcoming-exhibitions">
-                        <div class="exhibition-list-item border rounded row g-3">
-                            <div class="col exhibition-date">January 15, 2024</div>
-                            <div class="col-6">
-                                <h3>Olympic Stadium</h3>
-                                <p>Athens</p>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Details</a>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Ticket</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="upcoming-exhibitions">
-                        <div class="exhibition-list-item border rounded row g-3">
-                            <div class="col exhibition-date">February 15, 2024</div>
-                            <div class="col-6">
-                                <h3>Puskas Arena</h3>
-                                <p>Budapest</p>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Details</a>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Ticket</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="upcoming-exhibitions">
-                        <div class="exhibition-list-item border rounded row g-3">
-                            <div class="col exhibition-date">March 25, 2024</div>
-                            <div class="col-6">
-                                <h3>Groupama Stadium</h3>
-                                <p>Lyon</p>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Details</a>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Ticket</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="upcoming-exhibitions">
-                        <div class="exhibition-list-item border rounded row g-3">
-                            <div class="col exhibition-date">April 25, 2024</div>
-                            <div class="col-6">
-                                <h3>Stadio Olimpico</h3>
-                                <p>Rome</p>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Details</a>
-                            </div>
-                            <div class="col button">
-                                <a href="#" class="btn btn-outline-light" role="button" target="_blank">Ticket</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Details</a
+                  >
                 </div>
-            </div>
-        </section>
-        <!--Footer Container-->
-        <footer class="opaque-overlay">
-            <div class="container-fluid">
-                <div class="row footer-container">
-                    <!--Paragraph container-->
-                    <div class="col-6">
-                        <p id="footer-p">All rights reserved © GrizkArtGallery 2023</p>  
-                    </div>
-                    <!--Social media links container-->
-                    <div class="col-6" id="socialmedia-container">
-                        <ul class="list-inline social-media">
-                            <li class="list-inline-item">
-                            <a target="_blank" href="https://www.facebook.com/">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                            </li>
-                            <li class="list-inline-item">
-                            <a target="_blank" href="https://www.twitter.com/">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                            </li>
-                            <li class="list-inline-item">
-                            <a target="_blank" href="https://www.instagram.com/">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                            </li>
-                            <li class="list-inline-item">
-                            <a target="_blank" href="https://www.youtube.com/">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
-                            </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Ticket</a
+                  >
                 </div>
+              </div>
             </div>
-
-        </footer>
+            <div class="upcoming-exhibitions">
+              <div class="exhibition-list-item border rounded row g-3">
+                <div class="col exhibition-date">December 30, 2023</div>
+                <div class="col-6">
+                  <h3>Singapore Stadium</h3>
+                  <p>Singapore</p>
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Details</a
+                  >
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="upcoming-exhibitions">
+              <div class="exhibition-list-item border rounded row g-3">
+                <div class="col exhibition-date">January 15, 2024</div>
+                <div class="col-6">
+                  <h3>Olympic Stadium</h3>
+                  <p>Athens</p>
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Details</a
+                  >
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="upcoming-exhibitions">
+              <div class="exhibition-list-item border rounded row g-3">
+                <div class="col exhibition-date">February 15, 2024</div>
+                <div class="col-6">
+                  <h3>Puskas Arena</h3>
+                  <p>Budapest</p>
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Details</a
+                  >
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="upcoming-exhibitions">
+              <div class="exhibition-list-item border rounded row g-3">
+                <div class="col exhibition-date">March 25, 2024</div>
+                <div class="col-6">
+                  <h3>Groupama Stadium</h3>
+                  <p>Lyon</p>
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Details</a
+                  >
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="upcoming-exhibitions">
+              <div class="exhibition-list-item border rounded row g-3">
+                <div class="col exhibition-date">April 25, 2024</div>
+                <div class="col-6">
+                  <h3>Stadio Olimpico</h3>
+                  <p>Rome</p>
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Details</a
+                  >
+                </div>
+                <div class="col button">
+                  <a
+                    href="#"
+                    class="btn btn-outline-light"
+                    role="button"
+                    target="_blank"
+                    >Ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Footer Container-->
+      <footer class="opaque-overlay">
+        <div class="container-fluid">
+          <div class="row footer-container">
+            <!--Paragraph container-->
+            <div id="paragraph-container" class="col-6">
+              <p id="footer-p">All rights reserved © GrizkArtGallery 2023</p>
+            </div>
+            <!--Social media links container-->
+            <div class="col-6" id="socialmedia-container">
+              <ul class="list-inline social-media">
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.facebook.com/">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.twitter.com/">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.instagram.com/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.youtube.com/">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </article>
     <!-- JavaScript to enable toggler button -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
