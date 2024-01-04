@@ -372,7 +372,7 @@ a {
 }
 
 /*----MEDIA QUERIES----*/
-@media only screen and (min-width: 320px) and (max-width: 576px) {
+@media only screen and (min-width: 526px) and (max-width: 576px) {
     /* Styles for extra small devices */
 
     .hero-image {
