@@ -25,6 +25,20 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+header {
+    background: url(../images/abstract/1.jpg);
+    background-color: #4b4453;
+    background-size: cover;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    padding-top: 60px;
 }
 
 .opaque-overlay {
@@ -126,6 +140,7 @@ a {
     background-size: cover;
     overflow: hidden;
     padding: 0 20px;
+    margin-top: 40px;
 }
 
 @keyframes fadeIn {
@@ -145,6 +160,7 @@ a {
 /*Container holding about-us sections on home page*/
 #about-us {
     padding-top: 10px;
+    margin-top: 40px;
 }
 
 /*Container holding latest releases & upcoming exhibition sections on home page*/
