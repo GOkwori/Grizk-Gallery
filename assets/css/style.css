@@ -17,8 +17,7 @@
     box-sizing: border-box;
 }
 
-/* Background image added to the body with a backup colour in case the image cannot load,
-Font to be used throughout the pages body */
+/* Background image added to the body with a backup colour in case the image cannot load */
 body {
     background: url(../images/abstract/1.jpg);
     background-color: #4b4453;
@@ -39,6 +38,11 @@ header {
 
 section {
     padding-top: 60px;
+    min-height: 93vh;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .opaque-overlay {
@@ -285,28 +289,14 @@ a {
     margin-left: 0;
 }
 
-/*Styling search bar on gallery page*/
-.search-container {
-    padding-right: 20px;
+/*Styling exhibition content on exhibition page*/
+#h2-container {
+    margin-top: 20px;
 }
 
-#search-bar {
-    height: 25px;
-    font-size: 10px;
-}
-
-#search-button {
-    padding: 0;
-    font-family: 'Roboto Serif', serif;
-    font-size: 10px;
-    width: 80px;
-}
-
-/*Styling video & exhibition content on exhibition page*/
 #exhibition-intro {
     padding: 0 20px;
 }
-
 
 #exhibition-page-items {
     display: block;
