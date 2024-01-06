@@ -397,11 +397,17 @@ a {
         padding: 10px 0;
         position: relative;
         background: none;
+        overflow-x: hidden;
     }
 
     section {
         padding-top: 0;
         min-height: 93vh;
+        overflow-x: hidden;
+    }
+
+    footer {
+        overflow-x: hidden;
     }
 
     #hero-container {
@@ -411,6 +417,7 @@ a {
     .hero-image {
         height: 350px;
         margin: 10px 0;
+        padding: 0 10px;
     }
 
     #latest-release {
@@ -493,6 +500,11 @@ a {
 
     #booking-form {
         margin-bottom: 40px;
-        padding: 0 20px 0 0;
+        padding: 0 20px 0 10px;
+    }
+
+    .booking-intro {
+        margin-top: 0;
+        padding-left: 10px;
     }
 }
