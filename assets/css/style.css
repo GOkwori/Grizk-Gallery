@@ -342,7 +342,6 @@ a {
 }
 
 /*---------- SEMANTIC FOOTER ----------*/
-
 #footer-p {
     font-size: 10px;
 }
@@ -382,17 +381,35 @@ a {
 }
 
 /*----MEDIA QUERIES----*/
-@media only screen and (min-width: 526px) and (max-width: 576px) {
+@media only screen and (min-width: 390px) {
+
     /* Styles for extra small devices */
+    body {
+        background: url(../images/abstract/1.jpg);
+        background-color: #4b4453;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        padding: 10px 0;
+        position: relative;
+        background: none;
+    }
+
+    section {
+        padding-top: 0;
+        min-height: 93vh;
+    }
 
     .hero-image {
-        height: 400px;
-        margin-bottom: 20px;
+        height: 350px;
+        margin: 10px 0;
     }
 
     #latest-release {
         width: 100%;
-        margin-bottom: 20px;
     }
 
     .image-grid {
@@ -413,13 +430,18 @@ a {
         display: block;
     }
 
-    #second-section {
-        margin-top: 20px;
+    .exhibition-list-item {
+        background-position: left;
     }
 
     #exhibition-list {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    #location-thumbnail {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #location-thumbnail img {
@@ -440,7 +462,11 @@ a {
     }
 
     #footer-p {
-        font-size: 8px;
+        font-size: 6px;
+    }
+
+    #h2-container {
+        margin-top: 0;
     }
 
     #section-container {
