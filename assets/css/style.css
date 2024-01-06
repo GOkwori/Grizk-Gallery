@@ -390,6 +390,7 @@ a {
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        overflow-x: hidden;
     }
 
     header {
@@ -401,6 +402,10 @@ a {
     section {
         padding-top: 0;
         min-height: 93vh;
+    }
+
+    #hero-container {
+        margin: 0;
     }
 
     .hero-image {
@@ -437,6 +442,11 @@ a {
     #exhibition-list {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    #second-section {
+        padding-right: 0;
+        margin-right: 0;
     }
 
     #location-thumbnail {
