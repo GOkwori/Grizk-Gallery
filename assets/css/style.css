@@ -323,22 +323,6 @@ a {
     font-size: 13px;
 }
 
-/*Style modal*/
-.modal {
-    background-size: contain;
-    overflow-y: auto;
-}
-
-.modal-title {
-    color: black;
-    font-family: 'Roboto Serif', serif;
-}
-
-.modal-body {
-    color: black;
-    font-family: 'Roboto Serif', serif;
-}
-
 /*---------- SEMANTIC FOOTER ----------*/
 #footer-p {
     font-size: 10px;
@@ -914,5 +898,41 @@ a {
 
         .form-select {
             width: 350%;
+        }
+    }
+
+    @media only screen and (max-width: 1366px) {
+        section {
+            padding-top: 0;
+            min-height: 96vh;
+            overflow-x: hidden;
+        }
+
+        #section-container {
+            display: block;
+            margin-right: 10px;
+        }
+
+        .upcoming-exhibitions {
+            width: 100%;
+            padding: 20px 0 0 20px;
+        }
+
+        #booking-form {
+            margin-bottom: 40px;
+            padding: 0 20px 0 10px;
+        }
+
+        .booking-intro {
+            margin-top: 0;
+            padding-left: 10px;
+        }
+
+        .form-control {
+            width: 250%;
+        }
+
+        .form-select {
+            width: 150%;
         }
     }
