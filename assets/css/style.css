@@ -379,6 +379,128 @@ a {
 }
 
 /*----MEDIA QUERIES----*/
+@media only screen and (max-width: 389px) {
+
+    /* Styles for extra small devices */
+    body {
+        background: url(../images/abstract/1.jpg);
+        background-color: #4b4453;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 10px 0;
+        position: relative;
+        background: none;
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-top: 0;
+        min-height: 93vh;
+        overflow-x: hidden;
+    }
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    #hero-container {
+        margin: 0;
+    }
+
+    .hero-image {
+        height: 250px;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    #latest-release {
+        width: 100%;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 10px;
+        padding: 0 0px 0 20px;
+    }
+
+    #latest-release img {
+        height: 80px;
+        width: 140px;
+    }
+
+    #inner-section {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+    .exhibition-list-item {
+        background-position: left;
+    }
+
+    #exhibition-list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #second-section {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    #location-thumbnail {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #location-thumbnail img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        transition: transform 0.3s ease-in-out;
+        margin: 5px;
+    }
+
+    #location-thumbnail p {
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    #footer-p {
+        font-size: 6px;
+    }
+
+    #h2-container {
+        margin-top: 0;
+    }
+
+    #section-container {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .upcoming-exhibitions {
+        width: 100%;
+        padding: 20px 0 0 20px;
+    }
+
+    #booking-form {
+        margin-bottom: 40px;
+        padding: 0 20px 0 10px;
+    }
+
+    .booking-intro {
+        margin-top: 0;
+        padding-left: 10px;
+    }
+}
+
 @media only screen and (min-width: 390px) and (max-width: 490px) {
 
     /* Styles for extra small devices */
@@ -470,10 +592,6 @@ a {
     #location-thumbnail p {
         font-size: 10px;
         margin-left: 15px;
-    }
-
-    .search-container {
-        padding: 0 0 20px 30px;
     }
 
     #footer-p {
@@ -603,9 +721,6 @@ a {
         margin-left: 15px;
     }
 
-    .search-container {
-        padding: 0 0 20px 30px;
-    }
 
     #footer-p {
         font-size: 6px;
@@ -739,10 +854,6 @@ a {
     #location-thumbnail p {
         font-size: 10px;
         margin-left: 15px;
-    }
-
-    .search-container {
-        padding: 0 0 20px 30px;
     }
 
     #footer-p {
