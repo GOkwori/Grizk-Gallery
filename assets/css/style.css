@@ -206,8 +206,6 @@ a {
 
 .upcoming-exhibitions {
     width: 95%;
-    display: flex;
-    justify-content: center;
     padding: 20px 0 0 40px;
 }
 
@@ -493,8 +491,6 @@ a {
 
     .upcoming-exhibitions {
         width: 100%;
-        display: flex;
-        justify-content: center;
         padding: 20px 0 0 20px;
     }
 
@@ -626,8 +622,6 @@ a {
 
     .upcoming-exhibitions {
         width: 100%;
-        display: flex;
-        justify-content: center;
         padding: 20px 0 0 20px;
     }
 
