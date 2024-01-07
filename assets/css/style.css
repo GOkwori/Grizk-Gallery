@@ -787,7 +787,7 @@ a {
 
         section {
             padding-top: 0;
-            min-height: 88vh;
+            min-height: 96vh;
             overflow-x: hidden;
         }
 
@@ -877,6 +877,10 @@ a {
             margin-right: 10px;
         }
 
+        .image-grid {
+            padding: 0 20px 0 20px;
+        }
+
         .upcoming-exhibitions {
             width: 100%;
             padding: 20px 0 0 20px;
@@ -897,7 +901,7 @@ a {
         }
 
         .form-select {
-            width: 350%;
+            width: 150%;
         }
     }
 
