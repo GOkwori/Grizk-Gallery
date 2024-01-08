@@ -613,6 +613,14 @@ a {
         margin-top: 0;
         padding-left: 10px;
     }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-select {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 490px) {
@@ -649,7 +657,7 @@ a {
     }
 
     .hero-image {
-        height: 350px;
+        height: 300px;
         margin: 10px 0;
         padding: 0 10px;
     }
@@ -734,6 +742,14 @@ a {
     .booking-intro {
         margin-top: 0;
         padding-left: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-select {
+        width: 100%;
     }
 }
 
