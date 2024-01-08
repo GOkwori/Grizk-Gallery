@@ -388,6 +388,80 @@ a {
 
 
 /*----MEDIA QUERIES----*/
+@media only screen and (max-width: 320px) {
+    .hero-image {
+        height: 300px;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    .image-grid {
+        padding: 0 0px 0 30px;
+        margin-bottom: 10px
+    }
+
+    #latest-release img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .exhibition-container {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .exhibition-date {
+        color: #fafafa;
+        width: 50%;
+        font-size: 6px;
+    }
+
+    .exhibition-date h3 {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        color: #fafafa;
+        font-size: small;
+    }
+
+    .exhibition-list-item p {
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .exhibition-list-item a {
+        font-size: 6px;
+    }
+
+    #location-thumbnail {
+        padding-left: 10px;
+    }
+
+    #location-thumbnail img {
+        height: 40px;
+        width: 40px;
+    }
+
+    #location-thumbnail div p {
+        font-family: 'Roboto Serif', serif;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 7px;
+    }
+
+    .social-media li a i {
+        color: #4b4453;
+        background: #fafafa;
+        width: 15px;
+        height: 15px;
+        padding: 5px 0;
+        border-radius: 50%;
+        font-size: 9px;
+        line-height: 7px;
+        text-align: center;
+        transition: all 0.35s ease-in-out;
+    }
+}
+
 @media only screen and (max-width: 389px) {
 
     /* Styles for extra small devices */
