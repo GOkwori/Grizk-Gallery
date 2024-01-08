@@ -389,6 +389,13 @@ a {
 
 /*----MEDIA QUERIES----*/
 @media only screen and (max-width: 320px) {
+
+    section {
+        padding-top: 0;
+        min-height: 91vh;
+        overflow-x: hidden;
+    }
+
     .hero-image {
         height: 300px;
         margin: 10px 0;
@@ -448,6 +455,27 @@ a {
         font-size: 7px;
     }
 
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(117px, 1fr));
+        gap: 10px;
+        padding: 0 0px 0 20px;
+    }
+
+    .image-grid img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-select {
+        width: 100%;
+    }
+
     .social-media li a i {
         color: #4b4453;
         background: #fafafa;
@@ -460,6 +488,9 @@ a {
         text-align: center;
         transition: all 0.35s ease-in-out;
     }
+
+
+
 }
 
 @media only screen and (max-width: 389px) {
