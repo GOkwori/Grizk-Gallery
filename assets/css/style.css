@@ -250,6 +250,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
 #location-thumbnail img {
@@ -628,6 +629,16 @@ a {
     .booking-intro {
         margin-top: 0;
         padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .form-control {
+        width: 230%;
+    }
+
+    .form-select {
+        width: 230%;
     }
 }
 
