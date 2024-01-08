@@ -34,11 +34,13 @@ header {
     padding: 10px 0;
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 
 section {
     padding-top: 60px;
     min-height: 93vh;
+    overflow-x: hidden;
 }
 
 footer {
@@ -129,42 +131,19 @@ a {
 
 /*---------- SEMANTIC SECTION ----------*/
 
-/*Styling for hero-image on home page*/
-.hero-container {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+/*Styling for carousel container on home page*/
+#carousel-container {
+    margin-top: 20px;
     position: relative;
-}
-
-.hero-image {
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    padding: 0 20px;
-    margin-top: 30px;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-.animate-fade-in {
-    animation: fadeIn 2.5s ease-in-out forwards;
+    z-index: 1;
+    height: 700px;
+    overflow-y: hidden;
 }
 
 /*Container holding about-us sections on home page*/
 #about-us {
     padding-top: 10px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 /*Container holding latest releases & upcoming exhibition sections on home page*/
