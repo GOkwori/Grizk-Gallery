@@ -136,7 +136,7 @@ a {
     margin-top: 20px;
     position: relative;
     z-index: 1;
-    height: 700px;
+    height: auto;
     overflow-y: hidden;
 }
 
@@ -364,7 +364,6 @@ a {
     margin-top: 10px;
     font-size: small;
 }
-
 
 /*----MEDIA QUERIES----*/
 
@@ -625,6 +624,7 @@ a {
 
     .form-control {
         width: 290%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
@@ -647,7 +647,7 @@ a {
 
     section {
         padding-top: 0;
-        min-height: 88vh;
+        min-height: 89vh;
         overflow-x: hidden;
     }
 
@@ -674,7 +674,7 @@ a {
 
     .image-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 10px;
         padding: 0 10px 0 10px;
     }
@@ -756,10 +756,69 @@ a {
 
     .form-control {
         width: 200%;
+    }
 }
 
-@media (min-width: 821px) and (max-width: 1024px) {
-
+@media (max-width: 1024px) {
     
+    body {
+        background: url(../images/abstract/1.jpg);
+        background-color: #4b4453;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 10px 0;
+        position: relative;
+        background: none;
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-top: 0;
+        min-height: 91vh;
+        overflow-x: hidden;
+    }
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    #carousel-container {
+        margin: 20px 0 20px 0;
+        position: relative;
+        height: auto;
+    }
+
+    #h2-container {
+        margin-top: 10px;
+    }
+
+    #exhibition-intro {
+        padding: 0 10px 0 20px;
+    }
+
+    #section-container {
+        display: block;
+        padding: 0 10px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 10px;
+        padding: 0 10px 0 20px;
+    }
+
+    .form-select {
+        width: 200%;
+    }
+
+    .form-control {
+        width: 200%;
+    }
 
 }
