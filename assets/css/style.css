@@ -368,9 +368,8 @@ a {
 
 /*----MEDIA QUERIES----*/
 
-@media (min-width: 320px) and (max-width: 490px) {
+@media (min-width: 320px) and (max-width: 575px) {
 
-    /* Styles for extra small devices */
     body {
         background: url(../images/abstract/1.jpg);
         background-color: #4b4453;
@@ -400,7 +399,7 @@ a {
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
-        height: auto;
+        height:fit-content;
     }
 
     #inner-section {
@@ -451,6 +450,10 @@ a {
         font-size: xx-small;
     }
 
+    #second-section {
+        margin-left: 10px;
+    }
+
     #location-thumbnail img {
         height: 70px;
         width: 70px;
@@ -492,9 +495,140 @@ a {
     }
 }
 
+@media (min-width: 576px) and (max-width: 766px) {
+
+    body {
+        background: url(../images/abstract/1.jpg);
+        background-color: #4b4453;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 10px 0;
+        position: relative;
+        background: none;
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-top: 0;
+        min-height: 88vh;
+        overflow-x: hidden;
+    }
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    #carousel-container {
+        margin: 20px 0 20px 0;
+        position: relative;
+        height:fit-content;
+    }
+
+    #inner-section {
+        height: auto;
+        width: auto;
+        display: block;
+        margin: 0 10px
+    }
+
+    #latest-release {
+        width: auto;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 0 10px 0 10px;
+    }
+
+    #exhibition-list {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .upcoming-exhibitions {
+        width: auto;
+        padding-left: 20px;
+    }
+
+    .exhibition-list-item {
+        height: 60px;
+    }
+
+    .exhibition-date {
+        font-size: xx-small;
+        padding: 0;
+    }
+
+    .exhibition-list-item h3 {
+        font-size: small;
+    }
+
+    .exhibition-list-item p {
+        font-size: xx-small;
+    }
+
+    .exhibition-list-item a {
+        font-size: xx-small;
+    }
+
+    #second-section {
+        margin-left: 10px;
+    }
+
+    #location-thumbnail img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    #location-thumbnail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #location-thumbnail div p {
+    font-size: xx-small;
+    }
+
+    #footer-p {
+        font-size: 5px;
+    }
+
+    .social-media li a i {
+        width: 15px;
+        height: 15px;
+        padding: 5px 0;
+        border-radius: 50%;
+    }
+
+    #h2-container {
+        margin-top: 10px;
+    }
+
+    #exhibition-intro {
+        padding: 0 10px 0 20px;
+    }
+
+    #section-container {
+        display: block;
+        padding: 0 10px;
+    }
+
+    .form-control {
+        width: 290%;
+}
+
 @media (min-width: 768px) and (max-width: 820px) {
 
-    /* Styles for extra small devices */
     body {
         background: url(../images/abstract/1.jpg);
         background-color: #4b4453;
@@ -531,6 +665,7 @@ a {
         height: auto;
         width: auto;
         display: block;
+        margin: 0 10px;
     }
 
     #latest-release {
@@ -623,3 +758,8 @@ a {
         width: 200%;
 }
 
+@media (min-width: 821px) and (max-width: 1024px) {
+
+    
+
+}
