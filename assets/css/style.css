@@ -759,7 +759,7 @@ a {
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     
     body {
         background: url(../images/abstract/1.jpg);
