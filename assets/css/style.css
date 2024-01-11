@@ -759,6 +759,63 @@ a {
     }
 }
 
+@media (min-width: 821px) and (max-width: 1023) {
+
+    body {
+        background: url(../images/abstract/1.jpg);
+        background-color: #4b4453;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 10px 0;
+        position: relative;
+        background: none;
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-top: 0;
+        min-height: 95vh;
+        overflow-x: hidden;
+    }
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    #exhibition-intro {
+        padding: 0 10px 0 20px;
+    }
+
+    #section-container {
+        display: block;
+        padding-right: 0 20px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 10px;
+        padding: 0 10px 0 20px;
+    }
+
+    .form-select {
+        width: 200%;
+    }
+
+    .form-control {
+        width: 200%;
+    }
+}
+
+
+
+
+
 @media (min-width: 1024px) {
     
     body {
