@@ -626,9 +626,27 @@ a {
         width: 290%;
     }
 
+    #thank-you-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center:
+    }
+    
     .thank-you-container {
         display: block;
-        width: 80%;
+    }
+    
+    
+    #thank-you-button {
+        text-align: center;
+    }
+    
+    #thank-you-button button {
+        margin-top: 10px;
+        font-size: small;
     }
 }
 
@@ -763,9 +781,27 @@ a {
         width: 200%;
     }
 
+    #thank-you-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center:
+    }
+    
     .thank-you-container {
         display: block;
-        width: 80%;
+    }
+    
+    
+    #thank-you-button {
+        text-align: center;
+    }
+    
+    #thank-you-button button {
+        margin-top: 10px;
+        font-size: small;
     }
 }
 
@@ -796,8 +832,26 @@ a {
         width: 200%;
     }
 
+    #thank-you-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center:
+    }
+    
     .thank-you-container {
         display: block;
-        width: 80%;
+    }
+    
+    
+    #thank-you-button {
+        text-align: center;
+    }
+    
+    #thank-you-button button {
+        margin-top: 10px;
+        font-size: small;
     }
 }
