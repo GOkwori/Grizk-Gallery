@@ -387,7 +387,7 @@ a {
 
     section {
         padding-top: 0;
-        min-height: 88vh;
+        min-height: 84vh;
         overflow-x: hidden;
     }
 
@@ -736,6 +736,34 @@ a {
         height: 15px;
         padding: 5px 0;
         border-radius: 50%;
+    }
+
+    #h2-container {
+        margin-top: 10px;
+    }
+
+    #exhibition-intro {
+        padding: 0 10px 0 20px;
+    }
+
+    #section-container {
+        display: block;
+    }
+
+    .form-select {
+        width: 200%;
+    }
+
+    .form-control {
+        width: 200%;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    section {
+        padding-top: 0;
+        min-height: 95vh;
+        overflow-x: hidden;
     }
 
     #h2-container {
