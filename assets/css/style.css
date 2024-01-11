@@ -804,17 +804,13 @@ a {
     }
 
     .form-select {
-        width: 200%;
+        width: 150%;
     }
 
     .form-control {
-        width: 200%;
+        width: 110%;
     }
 }
-
-
-
-
 
 @media (min-width: 1024px) {
     
