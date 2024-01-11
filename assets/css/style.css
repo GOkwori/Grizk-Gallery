@@ -812,15 +812,8 @@ a {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
     
-    body {
-        background: url(../images/abstract/1.jpg);
-        background-color: #4b4453;
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        overflow-x: hidden;
     }
 
     header {
