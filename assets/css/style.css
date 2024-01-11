@@ -632,7 +632,8 @@ a {
         justify-content: center;
         height: 100vh;
         margin: 0;
-        text-align: center:
+        text-align: center;
+        padding: 0 40px;
     }
     
     .thank-you-container {
@@ -787,7 +788,8 @@ a {
         justify-content: center;
         height: 100vh;
         margin: 0;
-        text-align: center:
+        text-align: center;
+        padding: 0 40px;
     }
     
     .thank-you-container {
@@ -838,7 +840,7 @@ a {
         justify-content: center;
         height: 100vh;
         margin: 0;
-        text-align: center:
+        text-align: center;
     }
     
     .thank-you-container {
