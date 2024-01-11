@@ -625,6 +625,11 @@ a {
     .form-control {
         width: 290%;
     }
+
+    .thank-you-container {
+        display: block;
+        width: 80%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
@@ -757,6 +762,11 @@ a {
     .form-control {
         width: 200%;
     }
+
+    .thank-you-container {
+        display: block;
+        width: 80%;
+    }
 }
 
 @media (min-width: 821px) and (max-width: 1024px) {
@@ -784,5 +794,10 @@ a {
 
     .form-control {
         width: 200%;
+    }
+
+    .thank-you-container {
+        display: block;
+        width: 80%;
     }
 }
