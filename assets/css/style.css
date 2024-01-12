@@ -7,7 +7,7 @@
     --content-text: 'Roboto Serif', serif;
 
     /*---------- COLOURS ----------*/
-    --white: #fafafa;
+    --white: #fafafa, #4b4453;
 }
 
 /* Removes all margins & Padding on everything so they can be fully customised */
