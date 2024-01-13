@@ -160,11 +160,14 @@ All Pages on the website are responsive and have:
 
 #### The Home Page
 
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+The home page is thoughtfully designed to provide an engaging and immersive experience. The home page displays the site's name as a title and then different containers holding an autoplaying carousel containing 3 slides of different artworks, about us, latest release, upcoming exhibitions and visit our location sections.
 
 ![Home page image](documentation/features/home-page.PNG)
 
-The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
+The Autoplaying Carousel on the Grizk Art Gallery home page is a dynamic feature that automatically transitions between three distinct slides, each showcasing different artworks. Here's how it works:
+* Dynamic Visuals: The carousel is designed to be visually engaging, featuring high-quality images of various contemporary and digital artworks. These images change seamlessly to capture your attention and provide a diverse artistic experience.
+
+* Autoplay Functionality: The carousel operates on an autoplay mechanism, meaning it automatically transitions from one slide to the next after a set duration. 
 
 ![Modal open image](documentation/features/modal.png)
 

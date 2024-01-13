@@ -103,7 +103,6 @@ a {
     font-family: 'Roboto Serif', serif;
 }
 
-
 /*---------- SEMANTIC HEADER ----------*/
 .container-fluid {
     padding-left: 20px;
@@ -682,7 +681,7 @@ a {
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
-        height: auto;
+        height: fit-content;
     }
 
     #inner-section {
@@ -814,6 +813,12 @@ a {
         overflow-x: hidden;
     }
 
+    #carousel-container {
+        margin: 20px 0 20px 0;
+        position: relative;
+        height: fit-content;
+    }
+    
     #h2-container {
         margin-top: 10px;
     }
