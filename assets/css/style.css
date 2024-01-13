@@ -135,7 +135,7 @@ a {
     margin-top: 20px;
     position: relative;
     z-index: 1;
-    height: 700px;
+    height: fit-content;
     overflow-y: hidden;
 }
 
@@ -818,7 +818,7 @@ a {
         position: relative;
         height: fit-content;
     }
-    
+
     #h2-container {
         margin-top: 10px;
     }
