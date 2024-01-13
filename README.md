@@ -169,7 +169,7 @@ The Autoplaying Carousel on the Grizk Art Gallery home page is a dynamic feature
 
 * Autoplay Functionality: The carousel operates on an autoplay mechanism, meaning it automatically transitions from one slide to the next after a set duration. 
 
-![Modal open image](documentation/features/modal.png)
+![Autoplaying Carousel](documentation/features/modal.png)
 
 The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
 
