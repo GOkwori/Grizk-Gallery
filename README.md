@@ -164,30 +164,34 @@ The home page is thoughtfully designed to provide an engaging and immersive expe
 
 ![Home page image](documentation/features/home-page.PNG)
 
-The Autoplaying Carousel on the Grizk Art Gallery home page is a dynamic feature that automatically transitions between three distinct slides, each showcasing different artworks. Here's how it works:
-* Dynamic Visuals: The carousel is designed to be visually engaging, featuring high-quality images of various contemporary and digital artworks. These images change seamlessly to capture your attention and provide a diverse artistic experience.
+The Autoplaying Carousel on the Grizk Art Gallery home page is a dynamic feature that automatically transitions between five distinct slides, each showcasing different artworks. Here's how it works:
 
-* Autoplay Functionality: The carousel operates on an autoplay mechanism, meaning it automatically transitions from one slide to the next after a set duration. 
+Dynamic Visuals: The carousel is designed to be visually engaging, featuring high-quality images of various contemporary and digital artworks. These images change seamlessly to capture your attention and provide a diverse artistic experience.
 
-![Autoplaying Carousel](documentation/features/modal.png)
+Autoplay Functionality: The carousel operates on an autoplay mechanism, meaning it automatically transitions from one slide to the next after a set duration. 
 
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
+![Autoplaying Carousel](documentation/features/readme-carousel.gif)
+
+The home page also has other sections like the about-us section, latest release, upcoming exhibitions and vist our locations sections that makes the it very interactive for users.
+
+![Page Sections](documentation/features/home-page.gif)
+
 
 #### The Gallery Page
 
-The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
+The gallery page is designed to enable visitors explore the rich tapestry of artistic expressions.
 
 ![Gallery page image](documentation/features/gallery-page.PNG)
 
-Once the user has selected their difficulty they will then be shown the quiz area. The quiz area contains the question and the 4  answer choices.
+The gallery page has the following features:
+with the following features:
 
-when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
+* Diverse Art Categories:Navigate through a variety of art categories, including abstract, anime, buildings, and digital art.
 
-![Image of quiz area](documentation/features/quiz.png)
+* Interactive Image Grid:Engage with an interactive image grid showcasing the latest releases. Click on thumbnails to view larger images and appreciate the details.
 
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
+*  User-Friendly Navigation: Enjoy a user-friendly interface that makes browsing the gallery a seamless and enjoyable experience. Effortlessly switch between art categories and explore diverse creations.
 
-![End of game](documentation/features/end.png)
 
 #### The Exhibition Page
 
@@ -250,7 +254,9 @@ HTML & CSS
 
 ### Frameworks, Libraries & Programs Used
 
-* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+*  [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to convert video to gif.
+
+*  [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
 * [Codeanywhere](https://id.codeanywhere.com/) - IDE used to create the site.
 
