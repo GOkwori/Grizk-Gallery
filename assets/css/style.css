@@ -345,7 +345,7 @@ a {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    text-align: center:
+    text-align: center;
 }
 
 .thank-you-container {
@@ -851,4 +851,5 @@ a {
         margin-top: 10px;
         font-size: small;
     }
+    
 }
