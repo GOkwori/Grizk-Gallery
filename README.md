@@ -224,12 +224,33 @@ The "Coming Soon" page for Grizk Art Gallery serves as a placeholder for future 
 
 #### Future Implementations
 
-In future implementations I would like to:
+##### User Engagement and Interaction
 
-1. Give users the option to select the amount of questions in their quiz.
-2. Look into making the quiz a multiplayer game, so that it could be played by teams, which would make the quiz even more like a pub quiz.
-3. Create a back end database to enable me to store scores which would then allow you to see how you scored against other players.
-4. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
+* Implement a user account system to enhance user engagement.
+* Allow users to create profiles, track favorite artworks, and participate in the art community.
+* Enable users to leave reviews and ratings for exhibited artworks.
+
+##### Artwork Submissions and Management
+
+* Develop a dedicated portal for artists to submit their work for upcoming exhibitions.
+* Streamline the submission process with user-friendly forms and efficient file uploads.
+
+##### Enhanced User Experience
+
+* Create a mobile app for a seamless gallery experience on smartphones and tablets.
+* Include push notifications for upcoming exhibitions and personalised content.
+
+##### E-Commerce Integration
+
+* Integrate an e-commerce platform to facilitate direct artwork purchases.
+* Provide secure online transactions and a platform for artists to sell their work.
+
+##### Scalability and Technical Improvements
+
+* Improve artwork organisation with advanced tagging and categorization features.
+* Allow users to filter and search for artworks based on various criteria.
+* Enhance the website's architecture to accommodate a growing collection of artworks.
+* Optimize performance and navigation for a large and diverse art catalog.
 
 ### Accessibility
 
