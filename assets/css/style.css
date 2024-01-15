@@ -5,7 +5,6 @@
     /*---------- TYPOGRAPHY ----------*/
     --header-text: 'Dancing Script', cursive;
     --content-text: 'Roboto Serif', serif;
-
     /*---------- COLOURS ----------*/
     --white: #fafafa, #4b4453;
 }
@@ -129,7 +128,6 @@ a {
 }
 
 /*---------- SEMANTIC SECTION ----------*/
-
 /*Styling for carousel container on home page*/
 #carousel-container {
     margin-top: 20px;
@@ -354,7 +352,6 @@ a {
     display: block;
 }
 
-
 #thank-you-button {
     text-align: center;
 }
@@ -365,9 +362,7 @@ a {
 }
 
 /*----MEDIA QUERIES----*/
-
 @media (min-width: 320px) and (max-width: 575px) {
-
     body {
         background: url(../images/abstract/1.jpg);
         background-color: #4b4453;
@@ -397,7 +392,7 @@ a {
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
-        height:fit-content;
+        height: fit-content;
     }
 
     #inner-section {
@@ -464,9 +459,9 @@ a {
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     #location-thumbnail div p {
-    font-size: xx-small;
+        font-size: xx-small;
     }
 
     #footer-p {
@@ -494,7 +489,6 @@ a {
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
-
     body {
         background: url(../images/abstract/1.jpg);
         background-color: #4b4453;
@@ -524,7 +518,7 @@ a {
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
-        height:fit-content;
+        height: fit-content;
     }
 
     #inner-section {
@@ -592,9 +586,9 @@ a {
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     #location-thumbnail div p {
-    font-size: xx-small;
+        font-size: xx-small;
     }
 
     #footer-p {
@@ -634,16 +628,15 @@ a {
         text-align: center;
         padding: 0 40px;
     }
-    
+
     .thank-you-container {
         display: block;
     }
-    
-    
+
     #thank-you-button {
         text-align: center;
     }
-    
+
     #thank-you-button button {
         margin-top: 10px;
         font-size: small;
@@ -651,7 +644,6 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
-
     body {
         background: url(../images/abstract/1.jpg);
         background-color: #4b4453;
@@ -745,9 +737,9 @@ a {
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     #location-thumbnail div p {
-    font-size: xx-small;
+        font-size: xx-small;
     }
 
     #footer-p {
@@ -790,16 +782,15 @@ a {
         text-align: center;
         padding: 0 40px;
     }
-    
+
     .thank-you-container {
         display: block;
     }
-    
-    
+
     #thank-you-button {
         text-align: center;
     }
-    
+
     #thank-you-button button {
         margin-top: 10px;
         font-size: small;
@@ -847,16 +838,15 @@ a {
         margin: 0;
         text-align: center;
     }
-    
+
     .thank-you-container {
         display: block;
     }
-    
-    
+
     #thank-you-button {
         text-align: center;
     }
-    
+
     #thank-you-button button {
         margin-top: 10px;
         font-size: small;
