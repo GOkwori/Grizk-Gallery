@@ -257,18 +257,14 @@ The "Coming Soon" page for Grizk Art Gallery serves as a placeholder for future 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
 * Using semantic HTML.
-* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrect.png)
+* Optimising the website's design to be responsive and accessible on various devices, including desktops, tablets, and phones.
+* Maintaining a clear and intuitive navigation structure.
+* Ensuring that users can easily navigate through the website using both keyboard and mouse.
+* Implementing accessible forms with proper labels, instructions, and error messages.
+* Choosing readable font styles and sizes, allowing users to adjust text as needed.
+* Ensuring there is sufficient color contrast between text and background.
+* Providiing descriptive alternative text for all images to assist users with visual impairments.
+* Using concise and meaningful descriptions.
 
 - - -
 
@@ -280,9 +276,9 @@ HTML & CSS
 
 ### Frameworks, Libraries & Programs Used
 
-*  [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to convert video to gif.
+* [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to convert video to gif.
 
-*  [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
 * [Codeanywhere](https://id.codeanywhere.com/) - IDE used to create the site.
 
@@ -308,8 +304,6 @@ HTML & CSS
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
-* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
-
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
 - - -
@@ -318,15 +312,15 @@ HTML & CSS
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+The site is deployed using GitHub Pages - [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gallery/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+2. Go to the repository for this project, [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gallery/).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
-5. From the source dropdown select main branch and press save.
+5. From the source dropdown select main branch and "/(root)", then press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
 ### Local Development
@@ -336,7 +330,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gallery/)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -344,7 +338,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gallery/)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
