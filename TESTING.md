@@ -32,13 +32,13 @@ To guarantee responsiveness across diverse screen sizes and devices, I meticulou
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](testing/w3/w3-index.png) - Passed.
-* [gallery.html](testing/w3/w3-game.png) - No errors, 1 Warning. The warning is that gallery section lacks heading.
-* [exhibition.html](testing/w3/w3-highscores.png) - Passed.
-* [booking.html](testing/w3/w3-404.png) - Passed.
-* [thank-you.html](testing/w3/w3-500.png) - Passed.
-* [coming-soon.html](testing/w3/w3-500.png) - Passed.
-* [style.css](testing/w3/w3-css.png) - Passed, no errors found.
+* [index.html](testing/w3/index-w3.png) - Passed.
+* [gallery.html](testing/w3/gallery-w3.png) - No errors, 1 Warning. The warning is that gallery section lacks heading.
+* [exhibition.html](testing/w3/exhibition-w3.png) - Passed.
+* [booking.html](testing/w3/booking-w3.png) - Passed.
+* [thank-you.html](testing/w3/thank-you-w3.png) - Passed.
+* [coming-soon.html](testing/w3/coming-soon-w3.png) - Passed.
+* [style.css](testing/w3/css-validator.png) - Passed, no errors found.
 
 - - -
 
