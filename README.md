@@ -12,7 +12,7 @@ Embark on a journey into artistic expression at Grizk, a vibrant hub of contempo
   * [Project Goals](#project-goals)
   * [Art Lovers' Goals](#art-lovers-goals)
   * [Artists' Goals](#artists-goals)
-  * [Developer & Business Goals](#business-goals)
+  * [Business Goals](#business-goals)
   * [User Stories](#user-stories)
   
 
@@ -150,7 +150,7 @@ All Pages on the website are responsive and have:
 * The title of the site at the top of every page. This title serves as a clickable link that seamlessly navigates users back to the home page. The title design is elegantly presented to provide a consistent and intuitive user experience across the site.
   ![Grizk Art Gallery](documentation/features/page-title.png)
 
-* The website incorporates a streamlined and visually appealing navigation menu, facilitating easy access to key sections. Users can seamlessly explore different pages, including Home, Gallery, Exhibition, and Booking, enhancing overall navigation efficiency.
+* The website incorporates a streamlined and visually appealing navigation menu, facilitating easy access to key sections. Users can seamlessly explore different pages, including Home, Gallery, Exhibition, and Booking, enhancing overall navigation efficiency. The navigation menu is collapsible for a seamless experience on smaller screens.
 
   ![Navigation Menu](documentation/features/nav-bar.png)
 
@@ -184,38 +184,43 @@ The gallery page is designed to enable visitors explore the rich tapestry of art
 ![Gallery page image](documentation/features/gallery-page.PNG)
 
 The gallery page has the following features:
-with the following features:
 
-* Diverse Art Categories:Navigate through a variety of art categories, including abstract, anime, buildings, and digital art.
+* Diverse Art Categories: Navigate through a variety of art categories, including abstract, anime, buildings, and digital art.
 
-* Interactive Image Grid:Engage with an interactive image grid showcasing the latest releases. Click on thumbnails to view larger images and appreciate the details.
-
-*  User-Friendly Navigation: Enjoy a user-friendly interface that makes browsing the gallery a seamless and enjoyable experience. Effortlessly switch between art categories and explore diverse creations.
+* Interactive Image Grid: Engage with an interactive image grid showcasing the latest releases. Click on thumbnails to view larger images and appreciate the details.
 
 
 #### The Exhibition Page
 
-The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
+The exhibition page introduces visitors to upcoming exhibitions with a captivating header and a brief, inviting description. The section includes an image grid displaying glimpses of the showcased artworks, each linked to a larger view. The page also provides details about upcoming exhibitions, including dates, venues, and locations. Each exhibition entry includes buttons for accessing more details and purchasing tickets.
 
 ![Exhibition Page Image](documentation/features/exhibition-page.PNG)
 
 #### The Booking Page
 
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
+The Booking Page serves as a platform for artists to submit their artworks for upcoming exhibitions organised by Grizk Art Gallery. The page has a clean and inviting design, providing artists with an opportunity to elevate their art to new heights.
+
+* Artists can submit their details, including full name, email address, and an optional contact number. 
+* A selection menu allows artists to choose the preferred exhibition venue from a list of options.
+* The submission date can be selected using a date picker.
+* Artists can provide a brief description of their artwork in a text area.
+* The form is designed to be submitted to a Google Sheets document, facilitating easy management and tracking of artist submissions.
+* Upon form submission, users are redirected to a 'Thank You' page.
+* A JavaScript event listener is implemented to redirect users to a 'Thank You' page upon form submission.
 
 ![Booking page image](documentation/features/booking-page.PNG)
 
 #### The Thank-you Page
 
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
+The Thank-you page successfully combines functionality with aesthetics, providing users with a positive confirmation experience after booking an exhibition. The thoughtful design and clear messaging contribute to an overall delightful user journey on the Grizk Art Gallery website.
 
 ![Thank-you Page](documentation/features/thank-you.png)
 
 #### The Coming-soon Page
 
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
+The "Coming Soon" page for Grizk Art Gallery serves as a placeholder for future implementations, providing users with a brief message about the ongoing construction of the page. The design is minimalistic, offering a clean and straightforward user experience.
 
-![Thank-you Page](documentation/features/coming-soon.PNG)
+![Coming-soon Page](documentation/features/coming-soon.PNG)
 
 #### Future Implementations
 
@@ -272,13 +277,15 @@ HTML & CSS
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [TinyPNG](https://tinypng.com/) To compress images
+* [Textmagic](https://freetools.textmagic.com/) - To format annd beautify code
 
-* [Birme](https://www.birme.net/) To resize images and convert to webp format.
+* [TinyPNG](https://tinypng.com/) - To compress images
 
-* [Favicon.io](https://favicon.io/) To create favicon.
+* [Birme](https://www.birme.net/) - To resize images and convert to webp format.
 
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Favicon.io](https://favicon.io/) - To create favicon.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
