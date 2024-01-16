@@ -52,9 +52,9 @@ All pages of the site are achieving a score of above 90 across the 4 categories.
 
 ![index.html](testing/lighthouse/desktop-home-page.png)
 
-![gallery.html](testing/lighthouse/lighthouse-desktop-game.webp)
+![gallery.html](testing/lighthouse/desktop-gallery-page.png)
 
-![highscores.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
+![exhibition.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
 
 ![404.html](testing/lighthouse/lighthouse-desktop-404.webp)
 
