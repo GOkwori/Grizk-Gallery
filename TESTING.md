@@ -54,11 +54,13 @@ All pages of the site are achieving a score of above 90 across the 4 categories.
 
 ![gallery.html](testing/lighthouse/desktop-gallery-page.png)
 
-![exhibition.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
+![exhibition.html](testing/lighthouse/desktop-exhibition-page.png)
 
-![404.html](testing/lighthouse/lighthouse-desktop-404.webp)
+![booking.html](testing/lighthouse/desktop-booking-page.png)
 
-![500.html](testing/lighthouse/lighthouse-desktop-500.png)
+![thank-you.html](testing/lighthouse/desktop-thank-you-page.png)
+
+![coming-soon.html](testing/lighthouse/desktop-coming-soon-page.png)
 
 ### Mobile Results
 
