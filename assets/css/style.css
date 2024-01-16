@@ -522,7 +522,13 @@ a {
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
-        height: fit-content;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 530px;
     }
 
     #inner-section {
