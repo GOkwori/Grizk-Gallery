@@ -44,15 +44,15 @@ To guarantee responsiveness across diverse screen sizes and devices, I meticulou
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+I employed Lighthouse within the Chrome Developer Tools to assess the website's performance, accessibility, adherence to best practices, and SEO.
 
 ### Desktop Results
 
-All pages of the site are achieving a score of 100 across the 4 categories.
+All pages of the site are achieving a score of above 90 across the 4 categories.
 
-![index.html](testing/lighthouse/lighthouse-desktop-index.webp)
+![index.html](testing/lighthouse/desktop-home-page.png)
 
-![game.html](testing/lighthouse/lighthouse-desktop-game.webp)
+![gallery.html](testing/lighthouse/lighthouse-desktop-game.webp)
 
 ![highscores.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
 
