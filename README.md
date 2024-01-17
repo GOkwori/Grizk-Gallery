@@ -92,7 +92,6 @@ The Grizk Official Website aims to create an engaging and informative platform f
 #### Artists:
 * I want a simplified and expedited process for booking exhibitions at the gallery.
 * I want clear information about the gallery's availability for exhibitions and submission guidelines.
-* I want collaboration tools to ensure a seamless and successful exhibition experience.
 
 #### General Users:
 * I want a visually appealing and intuitive interface that is easy to navigate.

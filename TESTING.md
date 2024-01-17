@@ -68,26 +68,29 @@ All pages of the site are achieving a score of above 90 across the 4 categories.
 
 ### Testing User Stories
 
-`First Time Visitors`
+`Art Lovers`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere. | The Quiz Arms pulls general knowledge quiz questions from a large variety of topics, much like a pub quiz would do. The site is available for use whenever is convenient to the user. |
-| I want the site to be responsive to my device. | I have developed the site with responsiveness in mind. |
-| I want the site to be easy to navigate. | Buttons are used throughout the site for navigation, much like a mobile app. As the site is like a mobile app - I decided that I didn't want to add a navigation bar or footer, as these would make the site look more like a traditional webpage. The page title also acts as a link to the home page.  |
+| I want to easily access information about the gallery's objectives and mission. | To ensure easy access to comprehensive information about the gallery's objectives and mission, a dedicated "About Us" section is implemented on the website. This section serves as a central hub where art lovers can navigate to gain insights into the gallery's overarching goals and mission. | 
+I want a user-friendly platform to discover and preview the latest artwork releases. | Creating a user-friendly platform for art enthusiasts to discover and preview the latest artwork releases involves the implementation of features designed to showcase these artworks prominently. The website incorporates a dedicated "New Releases" section, providing a curated space where visitors can explore and engage with the gallery's most recent additions. |
+| I want to stay informed about upcoming exhibitions and events hosted by the gallery. | To ensure art lovers stay informed about upcoming exhibitions and events, the website incorporates a dedicated section that serves as a comprehensive source of information. This section may include a dynamic calendar highlighting key dates, detailed announcements about upcoming exhibitions, and a feature for newsletter subscription (which would be included in future implementations). |
+| I want the ability to explore the full art catalog and conveniently purchase paintings. | The website provides a robust and user-friendly online catalog, allowing art enthusiasts to explore the complete collection. The catalog is organized in a structured manner, featuring categories, genres, and artists. |
 
-`Returning Visitors`
+`Artists`
 
 |  Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
+| I want a simplified and expedited process for booking exhibitions at the gallery. | The website streamlines the exhibition booking process for artists, ensuring a simplified and expedited experience. The user interface is designed with a focus on efficiency and clarity. Artists can navigate to the dedicated "Booking" section, where a user-friendly form allows them to submit essential details for exhibition consideration. |
+| I want clear information about the gallery's availability for exhibitions and submission guidelines. | Comprehensive information about the gallery's availability for exhibitions and detailed submission guidelines are easily accessible on the website. A dedicated page outlines the submission process, exhibition criteria, and any specific requirements for artists. |
 
-`Frequent Visitors`
+`General Users`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to adjust the difficulty level to keep improving my knowledge. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
-| I want to be able to log my high scores to see how I am performing. | Users of the site are able to log their high scores to the high scores page. The top ten results will be displayed. |
+| I want a visually appealing and intuitive interface that is easy to navigate. | The website boasts a visually appealing and intuitive interface designed to enhance user experience. A clean and modern design aesthetic is implemented, ensuring that the layout is visually engaging and easy to navigate. |
+| I want the website to load quickly and efficiently to access information without delays. | To meet the user's expectation of quick and efficient loading, the website is optimized for performance. Images and multimedia content are compressed without compromising quality, and the underlying code is streamlined to reduce unnecessary delays. |
+| I want the website to be responsive and provide a seamless experience on various devices. | The website prioritizes a responsive design, guaranteeing a seamless experience across various devices. Whether accessed from a desktop, laptop, tablet, or smartphone, the website adapts to different screen sizes and resolutions. The responsive design is achieved through the use of flexible layouts and media queries, allowing content to adjust dynamically. |
 
 - - -
 
