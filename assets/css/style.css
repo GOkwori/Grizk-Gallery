@@ -399,6 +399,10 @@ a {
         height: fit-content;
     }
 
+    .carousel-inner img {
+        height: 400px;
+    }
+
     #inner-section {
         height: auto;
         width: auto;
@@ -524,11 +528,8 @@ a {
         position: relative;
     }
 
-    .carousel-inner {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        height: 530px;
+    .carousel-inner img {
+        height: 600px;
     }
 
     #inner-section {
