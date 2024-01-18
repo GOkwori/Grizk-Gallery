@@ -10,7 +10,6 @@ Visit the deployed site: [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gal
 
 * [AUTOMATED TESTING](#automated-testing)
   * [W3C Validator](#w3c-validator)
-  * [JavaScript Validator](#javascript-validator)
   * [Lighthouse](#lighthouse)
 * [MANUAL TESTING](#manual-testing)
   * [Testing User Stories](#testing-user-stories)
@@ -32,13 +31,26 @@ To guarantee responsiveness across diverse screen sizes and devices, I meticulou
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](testing/w3/index-w3.png) - Passed.
-* [gallery.html](testing/w3/gallery-w3.png) - No errors, 1 Warning. The warning is that gallery section lacks heading.
-* [exhibition.html](testing/w3/exhibition-w3.png) - Passed.
-* [booking.html](testing/w3/booking-w3.png) - Passed.
-* [thank-you.html](testing/w3/thank-you-w3.png) - Passed.
-* [coming-soon.html](testing/w3/coming-soon-w3.png) - Passed.
-* [style.css](testing/w3/css-validator.png) - Passed, no errors found.
+* Home Page - Passed
+  ![index.html](testing/w3/index-w3.png)
+
+* Gallery Page - No errors, 1 Warning. The warning is that gallery section lacks heading
+  ![gallery.html](testing/w3/gallery-w3.png) 
+
+* Exhibition Page - Passed
+  ![exhibition.html](testing/w3/exhibition-w3.png) 
+
+* Booking Page - Passed
+  ![booking.html](testing/w3/booking-w3.png) 
+
+* Thank-you Page - Passed
+  ![thank-you.html](testing/w3/thank-you-w3.png) 
+
+* Coming-soon Page - Passed
+  ![coming-soon.html](testing/w3/coming-soon-w3.png) 
+
+* CSS - Passed, no errors found
+![style.css](testing/w3/css-validator.png)
 
 - - -
 
@@ -50,17 +62,23 @@ I employed Lighthouse within the Chrome Developer Tools to assess the website's 
 
 All pages of the site are achieving a score of above 90 across the 4 categories.
 
-![index.html](testing/lighthouse/desktop-home-page.png)
+* Home Page
+  ![index.html](testing/lighthouse/desktop-home-page.png)
 
-![gallery.html](testing/lighthouse/desktop-gallery-page.png)
+* Gallery Page
+  ![gallery.html](testing/lighthouse/desktop-gallery-page.png)
 
-![exhibition.html](testing/lighthouse/desktop-exhibition-page.png)
+* Exhibition Page
+  ![exhibition.html](testing/lighthouse/desktop-exhibition-page.png)
 
-![booking.html](testing/lighthouse/desktop-booking-page.png)
+* Booking Page
+  ![booking.html](testing/lighthouse/desktop-booking-page.png)
 
-![thank-you.html](testing/lighthouse/desktop-thank-you-page.png)
+* Thank-you Page
+  ![thank-you.html](testing/lighthouse/desktop-thank-you-page.png)
 
-![coming-soon.html](testing/lighthouse/desktop-coming-soon-page.png)
+* Coming-soon Page
+  ![coming-soon.html](testing/lighthouse/desktop-coming-soon-page.png)
 
 - - -
 
@@ -77,12 +95,14 @@ I want a user-friendly platform to discover and preview the latest artwork relea
 | I want to stay informed about upcoming exhibitions and events hosted by the gallery. | To ensure art lovers stay informed about upcoming exhibitions and events, the website incorporates a dedicated section that serves as a comprehensive source of information. This section may include a dynamic calendar highlighting key dates, detailed announcements about upcoming exhibitions, and a feature for newsletter subscription (which would be included in future implementations). |
 | I want the ability to explore the full art catalog and conveniently purchase paintings. | The website provides a robust and user-friendly online catalog, allowing art enthusiasts to explore the complete collection. The catalog is organized in a structured manner, featuring categories, genres, and artists. |
 
+
 `Artists`
 
 |  Goals | How are they achieved? |
 | :--- | :--- |
 | I want a simplified and expedited process for booking exhibitions at the gallery. | The website streamlines the exhibition booking process for artists, ensuring a simplified and expedited experience. The user interface is designed with a focus on efficiency and clarity. Artists can navigate to the dedicated "Booking" section, where a user-friendly form allows them to submit essential details for exhibition consideration. |
 | I want clear information about the gallery's availability for exhibitions and submission guidelines. | Comprehensive information about the gallery's availability for exhibitions and detailed submission guidelines are easily accessible on the website. A dedicated page outlines the submission process, exhibition criteria, and any specific requirements for artists. |
+
 
 `General Users`
 
@@ -99,108 +119,89 @@ I want a user-friendly platform to discover and preview the latest artwork relea
 Full testing was performed on the following devices:
 
 * Laptop:
-  * Macbook Pro 2021 14 inch screen
+  * Macbook Pro 2017 13"
+  * Hp Spectre x360
+  * HP EliteBook 830 G10 13.3"
+  * Dell Latitude 5530 15"
+
 * Mobile Devices:
-  * iPhone 13 pro.
-  * iPhone 11 pro.
-  * Phone X.
+  * iPhone 13 pro max.
+  * iPhone 12 pro.
+  * Samsung S10+
 
 Each device tested the site using the following browsers:
 
 * Google Chrome
 * Safari
-* Firefox
+* Microsoft Edge
 
-Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when playing.
-
-One tester in peer code review stated that the bottom of the play screen was cut off when testing on an iphone SE (2nd gen). I was unable to replicate this issue using google chrome developer tools.
 
 `Home Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| How to play button | Displays the modal with the instructions on how to play the game | Clicked on button | Modal with instructions on how to play opens | Pass |
-| Modal close button | Closes the modal | Clicked on close button | Modal closed | Pass |
-| Play Button | Directs the user to the game page | Clicked on button | Game page opens to display the difficulty selections | Pass |
-| High Scores Button | Directs the user to the high scores page | Clicked on button | Directs to the high scores page | Pass |
-| All buttons - hover effect | All black buttons with white text should change to white with black text when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
+| The Site's title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Navigation menu | Switches to the selected menu tab with the selected tab highlighted | Clicked on menu tabs | Switches between different pages with the current page tab being highlighted | Pass |
+| Autoplaying Carousel | Automatically starts slideshow or manually move between slides| Refreshed page & clicked on Prev and Next buttons | Carousel played automatically upon refresh and able to navigate between slides using buttons | Pass |
+| Thumbnail Images - hover effect | All thumbnail images should zoom in when hovered on | Hover over each thumbnail on the page | Each image displayed the right transition when hovered on | Pass |
+| Thumbnail Images | Link directs the user back to an enlarged image in a new tab | Click each thumbnail on the page | Each image displayed an enlarged portrait in a new tab | Pass |
+| Exhibition list items - hover effect | All list items images should zoom in when hovered on | Hover over each item in the upcoming exhibition section on the page | Each item displayed the right transition when hovered on | Pass |
+| Exhibition item Buttons | Directs the user to the coming-soon page | Clicked on all buttons | Directs to the coming-soon page | Pass |
+| All headings - hover effect | All headings should zoom in when hovered on  | Hover over every heading on the page | Each heading displayed the right transition when hovered on | Pass |
+| All buttons - hover effect | All transparent buttons with white text should change to white with purple text when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| Location thumbnail | Directs the user to the coming-soon page | Clicked on each location thumbnail | Directs to the coming-soon page | Pass |
+| Location thumbnail - hover effect| All location thumbnails should zoom in when hovered on  | Hover over each location thumbnail | Each item displayed the right transition when hovered on | Pass |
+| Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
 
-`Game Page - Difficulty Selection`
-
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Directed back to home page | Pass |
-| All buttons - hover effect | All buttons with a black background & white text should change when hovered over to a background colour of white with black text. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
-| Easy Button | Calls the easy quiz URL for the API | By console logging the data called from the API I was able to check the difficulty level of the questions corresponded with the level called | ![data-console.log-easy](testing/data-consolelog-easy.png) | Pass |
-| Medium Button | Calls the medium quiz URL for the API | By console logging the data called from the API I was able to check the difficulty level of the questions corresponded with the level called | ![data-console.log-medium](testing/data-consolelog-medium.png) | Pass |
-| Hard Button | Calls the hard quiz URL for the API | By console logging the data called from the API I was able to check the difficulty level of the questions corresponded with the level called | ![data-console.log-hard](testing/data-consolelog-hard.png) | Pass |
-
-`Game Page - Quiz Area`
+`Gallery Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | directed back to home page | Pass |
-| All buttons - hover effect | All buttons with a black background & white text should change when hovered over to a background colour of white with black text. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
-| Question populated | The question from the API is correctly pulled from the JSON data | console.log the data and check that the question has been pulled correctly | The question is displaying | Pass |
-| Answers populated | The answers from the API are correctly pulled from the JSON data | console.log the data and check that the answers have been pulled correctly | The answers are displaying | Pass |
-| Data attribute correct | The data attribute correct has been applied to the correct answer | By console logging the data I am able to check what the correct answer should be. I can then console.log the id of the buttons to check whether the data attribute has been applied only to the button containing the correct answer | only the correct answer has the correct attribute | Pass |
-| Correct answer - border colour | When a correct answer is clicked the border around the game area should display green | Clicked on a correct answer | Border displayed green | Pass |
-| Incorrect answer - border colour | When an incorrect answer is clicked the border around the game area should display red | Clicked incorrect answer | Border displayed red | Pass |
-| Correct answer - button colour | When a correct answer is clicked the button should change background colour to green | Clicked a correct answer | Button background turned green | Pass |
-| Incorrect answer - button colour | When an incorrect answer is clicked the clicked buttons background should turn red | Clicked incorrect answer | Button background turned red | Pass |
-| Incorrect answer - display correct answer | When an incorrect answer is clicked, the correct answer should display a green background | Clicked incorrect answer | The correct answer turned green | Pass |
-| Question No counter | The Question No counter should start at 1 and increase by 1 time the next button is selected. | answered questions and clicked next button | Each time the next button is clicked the Answer no counter increases by 1. | Pass |
-| Score Counter | The score counter should begin at 0. Each time a correct answer is selected the score should increase by 10. If an incorrect answer is selected the score should remain the same | Clicked a correct answer to check if the score increased. Clicked an incorrect answer to check the score stayed the same| When a correct answer was selected the score increased by 10. When an incorrect score was selected the score stayed the same | Pass |
-| Not Allowed Cursor | Once an answer has been selected, the answer buttons should then be disabled and when hovered over the not allowed cursor will display | Clicked on one answer button and then clicked on the remaining answer buttons | After the answer was selected each answer button clicked on subsequently displayed the not allowed cursor | Pass |
-| Next button - becomes visible | When an answer is clicked the next button should be displayed so the user can progress to the next question, or to the end section if all 15 questions have been answered| Clicked on an answer button | The next button displayed | Pass |
-| Next button hover effect | A button with a white background & black text should change to a button with a black background & white text when hovered over.| Hovered over the button | Style changed as expected | Pass |
-| Next button - clicked | When clicked all answer styles should be removed, the next button should become hidden again and a new question and answer loaded if there are questions left. If all questions have been answered the end game should appear | Clicked on the next button | All styles were removed and a new question and answers were displayed. After question 15 was answered I was taken to the end game. | Pass |
+| The Site's title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Navigation menu | Switches to the selected menu tab with the selected tab highlighted | Clicked on menu tabs | Switches between different pages with the current page tab being highlighted | Pass |
+| All headings - hover effect | All headings should zoom in when hovered on  | Hover over every heading on the page | Each heading displayed the right transition when hovered on | Pass |
+| Thumbnail Images - hover effect | All thumbnail images should zoom in when hovered on | Hover over each thumbnail on the page | Each image displayed the right transition when hovered on | Pass |
+| Thumbnail Images | Link directs the user back to an enlarged image in a new tab | Click each thumbnail on the page | Each image displayed an enlarged portrait in a new tab | Pass |
+| Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
 
-`Game Page - End of Quiz`
+
+`Exhibition Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| All buttons - hover effect | All buttons with a black background & white text should change when hovered over to a background colour of white with black text. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
-| Score Display | The Your Score area should populate with the score you have achieved | I added my score as I played, checked the score on the last question & compared to the score displayed | The score displays correctly | Pass |
-| Submit Button - enabled/disabled | The submit button should be disabled and show the not allowed cursor by default. Once the user types their team name into the input field the button is enabled | I hovered over and clicked the submit button without filling in the team name field. I then added a team name, hovered over and clicked the submit button | Without a team name filled in the cursor displays as not allowed and the button will not submit. Once I filled in a team name the cursor became a 🍺 when hovered over the button and I was able to click and submit the score | Pass |
-| Submit button - on submit | Once clicked the submit button will redirect you to the high scores page | Clicked the button with the team name filled in | Redirected to the high scores page | Pass |
-| Play again? button | Clicking on this button will return you to the start of the game page where you can select a quiz difficulty level | Clicked on the play again? button | Directed to the beginning of the game to select a difficulty level | Pass |
-| Home button | Clicking on this button will take you back to the home page | Clicked the home button | Directed back to the home page | Pass |
+| The Site's title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Navigation menu | Switches to the selected menu tab with the selected tab highlighted | Clicked on menu tabs | Switches between different pages with the current page tab being highlighted | Pass |
+| All headings - hover effect | All headings should zoom in when hovered on  | Hover over every heading on the page | Each heading displayed the right transition when hovered on | Pass |
+| Thumbnail Images - hover effect | All thumbnail images should zoom in when hovered on | Hover over each thumbnail on the page | Each image displayed the right transition when hovered on | Pass |
+| Thumbnail Images | Link directs the user back to an enlarged image in a new tab | Click each thumbnail on the page | Each image displayed an enlarged portrait in a new tab | Pass |
+| Exhibition list items - hover effect | All list items images should zoom in when hovered on | Hover over each item in the upcoming exhibition section on the page | Each item displayed the right transition when hovered on | Pass |
+| Exhibition item Buttons | Directs the user to the coming-soon page | Clicked on all buttons | Directs to the coming-soon page | Pass |
+| All buttons - hover effect | All transparent buttons with white text should change to white with purple text when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
 
-`High Scores Page`
-
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| All buttons - hover effect | All buttons with a black background & white text should change when hovered over to a background colour of white with black text. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
-| Score Displayed | If your score is in the top ten, your team name and score will be displayed in the high scores area in descending order | Played 11+ games and logged a variety of scores. | Once 10 scores were displayed on the high scores board, only scores that were better than the ones logged would then be added to the board | Pass |
-| Play again? button | Takes the user to the beginning of the game page to select a difficulty level | Clicked the button | Taken to the beginning of the game page to select a difficulty level | Pass |
-| Home button | Takes the user to the home page | Clicked the button | Taken to the home page | Pass |
-
-`404 Error Page`
+`Booking Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| All buttons - hover effect | All buttons with a black background & white text should change when hovered over to a background colour of white with black text. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
-| Go home button | Takes the user back to the home page | Clicked the button | Taken to the home page | Pass |
-| Play button | Takes the user to the beginning of the game page | Clicked the button | Taken to the beginning of the game page to choose a difficulty level | Pass|
-| View high Scores button | Takes the user to the high scores page | Clicked the button | Taken to the high scores page | Pass |
+| The Site's title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Navigation menu | Switches to the selected menu tab with the selected tab highlighted | Clicked on menu tabs | Switches between different pages with the current page tab being highlighted | Pass |
+| Heading - hover effect | Heading should zoom in when hovered on  | Hover over the heading on the page | Heading displayed the right transition when hovered on | Pass |
+| Submit button | Directs the user to the Thank-you page | Clicked on the submit button | Directs to the Thank-you page | Pass |
+| Submit button - hover effect | Transparent button with white text should change to white with purple text when hovered over.| Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
 
-`500 Error Page`
+`Thank-you Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| All buttons - hover effect | All buttons with a black background & white text should change when hovered over to a background colour of white with black text. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
-| Go home button | Takes the user back to the home page | Clicked the button | Taken to the home page | Pass |
-| View high Scores button | Takes the user to the high scores page | Clicked the button | Taken to the high scores page | Pass |
+| Heading - hover effect | Heading should zoom in when hovered on  | Hover over the heading on the page | Heading displayed the right transition when hovered on | Pass |
+| Close button | Directs the user to the Home page | Clicked on the submit button | Directs to the Home page | Pass |
+| Close button - hover effect | Transparent button with white text should change to white with purple text when hovered over.| Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+
+`Coming-soon Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Heading - hover effect | Heading should zoom in when hovered on  | Hover over the heading on the page | Heading displayed the right transition when hovered on | Pass |
+| Close button | Directs the user to the Home page | Clicked on the submit button | Directs to the Home page | Pass |
+| Close button - hover effect | Transparent button with white text should change to white with purple text when hovered over.| Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
