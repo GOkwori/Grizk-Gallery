@@ -809,9 +809,25 @@ a {
 }
 
 @media (min-width: 821px) and (max-width: 1024px) {
+    body {
+        background: url(../images/abstract/1.webp);
+        background-color: #4b4453;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 10px 0;
+        position: relative;
+        background: none;
+        overflow-x: hidden;
+    }
+    
     section {
         padding-top: 0;
-        min-height: 95vh;
+        min-height: 91vh;
         overflow-x: hidden;
     }
 
@@ -821,12 +837,53 @@ a {
         height: fit-content;
     }
 
+    .carousel-inner img {
+        height: 600px;
+    }
+
+    #inner-section {
+        height: auto;
+        width: auto;
+        display: block;
+        margin: 0 10px;
+    }
+
+    #latest-release {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 0 10px 0 10px;
+    }
+
+    #exhibition-list {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(134px, 1fr));
+        gap: 10px;
+        padding: 0 10px 0 10px;
+    }
+
     #h2-container {
         margin-top: 10px;
     }
 
     #exhibition-intro {
         padding: 0 10px 0 20px;
+    }
+
+    .image-container {
+        margin-bottom: 10px;
+        padding: 0 20px;
     }
 
     #section-container {
