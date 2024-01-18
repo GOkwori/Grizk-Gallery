@@ -356,7 +356,7 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [TESTIN`G.md](TESTING.md) file for all testing carried out.
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Solved Bugs
 
