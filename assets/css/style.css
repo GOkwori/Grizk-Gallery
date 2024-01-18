@@ -853,18 +853,11 @@ a {
         margin-bottom: 20px;
     }
 
-    .image-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 10px;
-        padding: 0 10px 0 10px;
-    }
 
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
     }
-
 
     .image-grid {
         display: grid;
