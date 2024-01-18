@@ -152,6 +152,7 @@ Each device tested the site using the following browsers:
 | Location thumbnail | Directs the user to the coming-soon page | Clicked on each location thumbnail | Directs to the coming-soon page | Pass |
 | Location thumbnail - hover effect| All location thumbnails should zoom in when hovered on  | Hover over each location thumbnail | Each item displayed the right transition when hovered on | Pass |
 | Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
+| Social-media links - hover effect| All social-media icons with white background and purple font should change to purple and white | Hover over each icon | Each icon displayed the correct styling when hovered over  | Pass |
 
 `Gallery Page`
 
@@ -163,6 +164,7 @@ Each device tested the site using the following browsers:
 | Thumbnail Images - hover effect | All thumbnail images should zoom in when hovered on | Hover over each thumbnail on the page | Each image displayed the right transition when hovered on | Pass |
 | Thumbnail Images | Link directs the user back to an enlarged image in a new tab | Click each thumbnail on the page | Each image displayed an enlarged portrait in a new tab | Pass |
 | Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
+| Social-media links - hover effect| All social-media icons with white background and purple font should change to purple and white | Hover over each icon | Each icon displayed the correct styling when hovered over  | Pass |
 
 
 `Exhibition Page`
@@ -178,6 +180,7 @@ Each device tested the site using the following browsers:
 | Exhibition item Buttons | Directs the user to the coming-soon page | Clicked on all buttons | Directs to the coming-soon page | Pass |
 | All buttons - hover effect | All transparent buttons with white text should change to white with purple text when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
 | Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
+| Social-media links - hover effect| All social-media icons with white background and purple font should change to purple and white | Hover over each icon | Each icon displayed the correct styling when hovered over  | Pass |
 
 `Booking Page`
 
@@ -189,6 +192,7 @@ Each device tested the site using the following browsers:
 | Submit button | Directs the user to the Thank-you page | Clicked on the submit button | Directs to the Thank-you page | Pass |
 | Submit button - hover effect | Transparent button with white text should change to white with purple text when hovered over.| Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
 | Social-media links| Link directs the user to the art gallery's social media page in a new tab | Clicked on each link | Redirected to the gallery's social media page | Pass |
+| Social-media links - hover effect| All social-media icons with white background and purple font should change to purple and white | Hover over each icon | Each icon displayed the correct styling when hovered over  | Pass |
 
 `Thank-you Page`
 

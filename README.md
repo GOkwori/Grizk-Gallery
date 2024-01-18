@@ -6,6 +6,17 @@ Visit the deployed site: [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gal
 
 Embark on a journey into artistic expression at Grizk, a vibrant hub of contemporary and digital artworks. Dive into a dynamic space transcending imagination, fostering a community of artists and enthusiasts. Through curated exhibitions and cultural events, we inspire dialogue and connection. Join us at Grizk, where art transforms into a shared experience, leaving an indelible mark on your memories' canvas.
 
+![GitHub Last Commit](https://img.shields.io/badge/Last%20Commit%20-%20January%202024-%20lemon)
+![GitHub Languages](https://img.shields.io/badge/Languages%20-%202%20-%20orange)
+![HTML](https://img.shields.io/badge/HTML%20-%2080%25%20-%20orange)
+![CSS](https://img.shields.io/badge/CSS%20-%2020%25%20-%20orange)
+![Static Badge](https://img.shields.io/badge/W3C%20-%20Validated%20-%20green)
+![LightHouse](https://img.shields.io/badge/Lighthouse%20-%20%3E90%25%20-%20green)
+![Manual Testing](https://img.shields.io/badge/Manual%20Testing%20-%20Passed%20-%20green)
+![Full Testing](https://img.shields.io/badge/Full%20Testing%20-%20Passed%20-%20green)
+![Contributor](https://img.shields.io/badge/Contributor%20-%201%20-%20purple)
+
+
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
@@ -106,10 +117,6 @@ The Grizk Official Website aims to create an engaging and informative platform f
 
 In the design of the art gallery website, I've intentionally selected a colour scheme dominated by `#fafafa` and `#4b4453` to complement the background image. The soft `#fafafa` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#4b4453` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
 
-In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a hackathon - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.
-
-
-  ![Grizk Art Gallery Color Scheme](documentation/color-scheme.webp)
 
 ### Typography
 
@@ -147,6 +154,7 @@ All Pages on the website are responsive and have:
   ![favicon](documentation/features/favicon.png)
 
 * The title of the site at the top of every page. This title serves as a clickable link that seamlessly navigates users back to the home page. The title design is elegantly presented to provide a consistent and intuitive user experience across the site.
+
   ![Grizk Art Gallery](documentation/features/page-title.png)
 
 * The website incorporates a streamlined and visually appealing navigation menu, facilitating easy access to key sections. Users can seamlessly explore different pages, including Home, Gallery, Exhibition, and Booking, enhancing overall navigation efficiency. The navigation menu is collapsible for a seamless experience on smaller screens.
@@ -293,6 +301,8 @@ HTML & CSS
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
+* [Shields.io](https://shields.io/) To add badges to the README
+
 * [Textmagic](https://freetools.textmagic.com/) - To format annd beautify code
 
 * [TinyPNG](https://tinypng.com/) - To compress images
@@ -346,31 +356,20 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+Please refer to [TESTIN`G.md](TESTING.md) file for all testing carried out.
 
 ### Solved Bugs
 
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
-| 1 | An error was displaying in the console when next was clicked after the first question, stating that results wasn't defined. | Data was defined in the callApi(), so couldn't be accessed as it was in local scope rather than global scope. By defining data globally and then passing the data as a parameter into the getQuestion() in the nextQuestion() solved this. |
-| 2 | The Questions being pulled in from the JSON have HTML entity characters that are not escaped and therefore display incorrectly with symbols in place of the correct characters. ![Characters not escaping correctly in the JSON data](documentation/characters-not-escaped.webp) | After a lot of research into escaping characters, I came across a post on slack that mentioned using innerHTML rather than innerText. Once I changed the answers to innerHTML the characters are now displaying correctly. |
-| 3 | I have the local storage set up to save the final score as mostRecentScore. However when completing a game and submitting the team name the score added to the high scores section would be the previous score and not the most recent score. | After a lot of research to try and find out why this was happening I went over the code again and decided to see if I changed mostRecentScore in the scoreLog to score it would make a difference. By changing this, I have solved the issue and it now pulls the most recent score achieved. |
-| 4 | Players were able to select an answer which would then display whether correct or incorrect. However they could still click on the answers which meant they could click all the answers to receive the points.| I researched a way to disable the buttons and initially found that I could use answer1.disabled = true; This worked, however it added quite a bit of code, as I had to add this for each button. Further research led me to find [this article](https://blog.revillweb.com/jquery-disable-button-disabling-and-enabling-buttons-with-jquery-5e3ffe669ece) which showed how to use jQuery and the class on the buttons to enable and disable them all at the same time. This then allows me to enable the buttons when a new question has been populated and once a selection has been made, the answer buttons are disabled until the user clicks next to advance onto the next question. |
-| 5 | There was an issue with the data-correct not always being removed correctly from questions, which meant that incorrect answers were displaying as correct | I changed the way the data-correct attribute was removed from the answers, by using the same a for loop similar to what was used to add the data-correct attribute. I also changed the for innerText in the for loop to be innerHTML so that it was correctly reading the same as what was displayed on the button. |
-| 6 | If a user selected an incorrect answer and the correct answer contained HTML entity characters (such as /&#(\d+);/g) the correct button styling would not be applied to the displayCorrectAnswer variable and a error would display in the console. This would then prevent the user from progressing in the quiz as the next button would not display for them to move on.![Bug 6](documentation/bug-6.png) | I adjusted line 161 to use innerHTML rather than innerText, however the issue persisted. I looked for an answer online but struggled to find anything that would help. I then reached out to Bim Williams on Slack who is an alumni on the course and asked to run the problem past him. He suggested adding a function that would decode the HTML entity and then apply that function within line 161. The function takes the HTML entity characters and replaces them with the correct characters. I will be researching this topic further in my spare time to gain a deeper understanding of it. |
+| 1 | | |
+| 2 | | |
+| 3 | | |
+| 4 | | |
+| 5 | | |
 
 ### Known Bugs
 
-* When viewing on screens that use touch rather than a cursor, the colour change for the answer button selected is not immediately obvious as the hover state remains on the button. If the user clicks away from the button the colour can then been seen.
-
-  ![Touch Button Colour](documentation/touch-button-colour.gif)
-
-* There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
-
-  ![Console warning](documentation/interest-cohort-error.png)
-
-* When friends tested the site they found that very rarely a game will get stuck on a question, and it will not populate a new question but the question no counter continues to increase. This issue only seems to be if a large number of games are played consecutively, possibly using up the questions in the API. I have not been able to replicate this issue to troubleshoot further.
-  ![Question overloaded](documentation/questions-depleted.gif)
 
 - - -
 
@@ -378,38 +377,17 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Code Used
 
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
 
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
-
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
 
 ### Content
 
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
-
-All other content for the site, such as introduction messages and instructions were written by myself.
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+
 
 ### Acknowledgments
 
-I would like to acknowledge the following people:
+I would like to acknowledge:
 
-* Adegbenga  Adeye - My Code Institute Mentor.
-
-* Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer buttons.
-
-* [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event listeners.
-
-* [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing the site.
-
-* [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessibility.
-
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+* Jubril Akolade - My Code Institute Mentor.
