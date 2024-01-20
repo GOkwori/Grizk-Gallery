@@ -311,6 +311,19 @@ All pages of the site are achieving a score of above 90 across the 4 categories.
 | Thank-you Page | ![thank-you.html](testing/lighthouse/desktop-thank-you-page.png) | 
 | Coming-soon Page | ![coming-soon.html](testing/lighthouse/desktop-coming-soon-page.png) | 
 
+### Mobile Results
+
+All pages of the site are achieving a score of above 90 across the 4 categories.
+
+| Page Tested | Validation Output |
+| --- | --- |
+| Home Page | ![index.html](testing/lighthouse/mobile-home-page.png)| 
+| Gallery Page | ![gallery.html](testing/lighthouse/mobile-gallery-page.png) | 
+| Exhibition Page | ![exhibition.html](testing/lighthouse/mobile-exhibition-page.png)| 
+| Booking Page | ![booking.html](testing/lighthouse/mobile-booking-page.png) | 
+| Thank-you Page | ![thank-you.html](testing/lighthouse/mobile-thank-you-page.png) | 
+| Coming-soon Page | ![coming-soon.html](testing/lighthouse/mobile-coming-soon-page.png) | 
+
   
 - - -
 
