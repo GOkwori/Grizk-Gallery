@@ -145,19 +145,29 @@ a {
     z-index: 2;
     bottom: 0;
     left: 0;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 #cover-text h2 {
     color: rgba(40, 4, 52, 0.964);
-    font-size: larger;
+    font-size: x-large;
     text-decoration: dotted;
 }
 
-#cover-text h2 {
-    justify-content: center;
-    align-items: center;
+#cover-text-right {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    padding: 0 20px;
 }
+
+#cover-text-right h2 {
+    color: rgba(40, 4, 52, 0.964);
+    font-size: x-large;
+    text-decoration: dotted;
+}
+
 
 .carousel-item img {
     height: 710px;
@@ -464,6 +474,15 @@ a {
     }
 
     #cover-text h2 {
+        font-size: small;
+    }
+
+    #cover-text-right {
+        padding: 10px 0 0 10px;
+        bottom: 0;
+    }
+
+    #cover-text-right h2 {
         font-size: small;
     }
 
