@@ -1,4 +1,4 @@
-# Grizk Art Gallery -  Testing
+# Grizk Art Gallery -  Testing 
 
 ![Grizk Art Gallery shown on a variety of screen sizes](documentation/features/web-page.png)
 

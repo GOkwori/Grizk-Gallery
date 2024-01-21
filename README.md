@@ -367,7 +367,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 4 | Toggler button on the exhibition page was not working properly on devices with smaller screens| The toggler button was not responsive due to an error in the code written | ![Solution Applied](documentation/bugs/bug-4.png) |
 | 5 | Web pages not responsive on smaller devices | The web pages were not responsive across smaller devices which made the layout of the entire web page disjointed | ![Solution Applied](documentation/bugs/bug-5.png) |
 | 6 | Favicon not displayed in browsers | The favicon was not being displayed on browser tabs due to an error in the file path introduced into the code| ![Solution Applied](documentation/bugs/bug-6.png) |
-| 7 | Close buttons noit working properly on thank-you & coming-soon pages| There was an error in the code written for the close buttons on both thank-you and coming-soon pages making both pages not work as intended and also the codes failing the w3c validation test | ![Solution Applied](documentation/bugs/bug-7.png) |
+| 7 | Close buttons not working properly on thank-you & coming-soon pages| There was an error in the code written for the close buttons on both thank-you and coming-soon pages making both pages not work as intended and also the codes failing the w3c validation test | ![Solution Applied](documentation/bugs/bug-7.png) |
 
 - - -
 
