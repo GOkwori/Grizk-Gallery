@@ -395,5 +395,5 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 I would like to acknowledge:
 
-* Jubril Akolade - My Code Institute Mentor.
-* The Code Institute Slack channel Peer Code Review
+* Jubril Akolade - My Code Institute Mentor for his guidance and encouragement.
+* The Code Institute Slack channel Peer Code Review for helping to review my project.
