@@ -94,7 +94,6 @@ h3 {
 p {
     color: #fafafa;
     font-family: 'Roboto Serif', serif;
-    font-size: 13px;
     text-align: justify;
     padding-right: 15px;
     font-size: 1rem;
@@ -420,6 +419,15 @@ a {
 
     footer {
         overflow-x: hidden;
+    }
+
+    p {
+        color: #fafafa;
+        font-family: 'Roboto Serif', serif;
+        font-size: 13px;
+        text-align: justify;
+        padding-right: 15px;
+        font-weight: 800;
     }
 
     #carousel-container {

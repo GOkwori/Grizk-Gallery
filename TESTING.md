@@ -1,6 +1,6 @@
 # Grizk Art Gallery -  Testing
 
-![Grizk Art Gallery shown on a variety of screen sizes](documentation/features/home-page.PNG)
+![Grizk Art Gallery shown on a variety of screen sizes](documentation/features/web-page.PNG)
 
 Visit the deployed site: [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gallery/)
 
