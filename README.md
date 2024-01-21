@@ -4,7 +4,7 @@
 
 Visit the deployed site: [Grizk Art Gallery](https://gokwori.github.io/Grizk-Gallery/)
 
-Embark on a journey into artistic expression at Grizk, a vibrant hub of contemporary and digital artworks. Dive into a dynamic space transcending imagination, fostering a community of artists and enthusiasts. Through curated exhibitions and cultural events, we inspire dialogue and connection. Join us at Grizk, where art transforms into a shared experience, leaving an indelible mark on your memories' canvas.
+Embark on a journey into artistic expression at Grizk, a vibrant hub of contemporary and digital animations. Dive into a dynamic space transcending imagination, fostering a community of artists and enthusiasts. Through curated exhibitions and cultural events, we inspire dialogue and connection. Join us at Grizk, where art & animations transform into a shared experience, leaving an indelible mark on your memories' canvas.
 
 ![GitHub Last Commit](https://img.shields.io/badge/Last%20Commit%20-%20January%202024-%20lemon)
 ![GitHub Languages](https://img.shields.io/badge/Languages%20-%202%20-%20orange)
@@ -66,7 +66,7 @@ Embark on a journey into artistic expression at Grizk, a vibrant hub of contempo
 
 ### Project Goals
 
-The Grizk Official Website aims to create an engaging and informative platform for art enthusiasts and artists. Key objectives include presenting the gallery's mission, featuring recent releases and upcoming exhibitions, and simplifying the booking process for artists. The website serves as a strategic tool to boost art and ticket sales while attracting more exhibition bookings, aligning with broader business goals.
+The Grizk Official Website aims to create an engaging and informative platform for art enthusiasts and artists. Key objectives include presenting the gallery's mission, featuring recent animation releases and upcoming exhibitions, and simplifying the booking process for artists. The website serves as a strategic tool to boost art and ticket sales while attracting more exhibition bookings, aligning with broader business goals.
 
 ### Art Lovers Goals
 
@@ -112,7 +112,7 @@ The Grizk Official Website aims to create an engaging and informative platform f
 
 ### Colour Scheme
 
-In the design of the art gallery website, I've intentionally selected a colour scheme dominated by `#fafafa` and `#4b4453` to complement the background image. The soft `#fafafa` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#4b4453` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
+In the design of the art gallery website, I've intentionally selected a colour scheme dominated by `#fafafa`, `rgb(255, 0, 0)` and `#4b4453` to complement the background image. The soft `#fafafa` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#4b4453` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
 
 
 ### Typography
@@ -129,7 +129,7 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 ### Imagery
 
-As Grizk Art Gallery celebrates diverse artistic expressions, the website showcases a dynamic blend of digital pictures, anime, 3D arts, and cityscapes sourced from [Wallpaper flare](https://www.wallpaperflare.com/). Each image carefully curated to immerse visitors in the rich tapestry of creativity, inviting them to explore the vibrant world of art within the virtual gallery.
+As Grizk Art Gallery celebrates diverse artistic expressions, the website showcases a dynamic blend of digital animations, 3D arts, and cityscapes sourced from [Wallpaper flare](https://www.wallpaperflare.com/). Each image carefully curated to immerse visitors in the rich tapestry of creativity, inviting them to explore the vibrant world of art within the virtual gallery.
 
 ### Wireframes
 
