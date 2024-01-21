@@ -393,6 +393,28 @@ a {
     font-size: small;
 }
 
+#coming-soon-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.coming-soon-container {
+    display: block;
+}
+
+#coming-soon-button {
+    text-align: center;
+}
+
+#coming-soon-button button {
+    margin-top: 10px;
+    font-size: small;
+}
+
 /*----MEDIA QUERIES----*/
 @media (min-width: 320px) and (max-width: 575px) {
     body {
@@ -437,7 +459,7 @@ a {
     }
 
     #cover-text {
-        padding: 10px 0 0 10px; 
+        padding: 10px 0 0 10px;
         bottom: 0;
     }
 
@@ -706,6 +728,29 @@ a {
         margin-top: 10px;
         font-size: small;
     }
+
+    #coming-soon-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    .coming-soon-container {
+        display: block;
+    }
+
+    #coming-soon-button {
+        text-align: center;
+    }
+
+    #coming-soon-button button {
+        margin-top: 10px;
+        font-size: small;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
@@ -864,6 +909,29 @@ a {
         margin-top: 10px;
         font-size: small;
     }
+
+    #coming-soon-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    .coming-soon-container {
+        display: block;
+    }
+
+    #coming-soon-button {
+        text-align: center;
+    }
+
+    #coming-soon-button button {
+        margin-top: 10px;
+        font-size: small;
+    }
 }
 
 @media (min-width: 821px) and (max-width: 1024px) {
@@ -882,7 +950,7 @@ a {
         background: none;
         overflow-x: hidden;
     }
-    
+
     section {
         padding-top: 0;
         min-height: 91vh;
@@ -973,5 +1041,27 @@ a {
         margin-top: 10px;
         font-size: small;
     }
-    
+
+    #coming-soon-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+    }
+
+    .coming-soon-container {
+        display: block;
+    }
+
+    #coming-soon-button {
+        text-align: center;
+    }
+
+    #coming-soon-button button {
+        margin-top: 10px;
+        font-size: small;
+    }
+
 }
