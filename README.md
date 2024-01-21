@@ -363,7 +363,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | --- | --- | --- | --- | 
 | 1 | Misalignment of footer section across all webpages | The footer section of the web pages were not uniform due to the ommission of a class element from the footer section of the exhibition, gallery and booking pages thereby making the footer section not uniform| ![BSolution Applied](documentation/bugs/bug-1.png) |
 | 2 | Distortion in the images on the gallery page| The images on the gallery page were not properly aligned and made the gallery page look uneven across all screen sizes| ![Solution Applied](documentation/bugs/bug-2.png)|
-| 3 | Distortion among several sections in the exhibition page| The exhibition page had all the section items scattered over the page whuch didn't make the page look appealing | ![Solution Applied](documentation/bugs/bug-3.png) |
+| 3 | Distortion among several sections in the exhibition page| The exhibition page had all the section items scattered over the page which didn't make the page look appealing | ![Solution Applied](documentation/bugs/bug-3.png) |
 | 4 | Toggler button on the exhibition page was not working properly on devices with smaller screens| The toggler button was not responsive due to an error in the code written | ![Solution Applied](documentation/bugs/bug-4.png) |
 | 5 | Web pages not responsive on smaller devices | The web pages were not responsive across smaller devices which made the layout of the entire web page disjointed | ![Solution Applied](documentation/bugs/bug-5.png) |
 | 6 | Favicon not displayed in browsers | The favicon was not being displayed on browser tabs due to an error in the file path introduced into the code| ![Solution Applied](documentation/bugs/bug-6.png) |
