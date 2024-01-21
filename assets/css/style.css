@@ -141,6 +141,25 @@ a {
     overflow-y: hidden;
 }
 
+#cover-text {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+}
+
+#cover-text h2 {
+    color: rgb(255, 0, 0);
+    font-size: larger;
+    text-decoration: dotted;
+}
+
+#cover-text h2 {
+    justify-content: center;
+    align-items: center;
+}
+
 .carousel-item img {
     height: 710px;
 }
@@ -387,7 +406,7 @@ a {
     }
 
     header {
-        padding: 10px 0;
+        padding: 10px 0 0 0;
         position: relative;
         background: none;
         overflow-x: hidden;
@@ -407,6 +426,15 @@ a {
         margin: 20px 0 20px 0;
         position: relative;
         height: fit-content;
+    }
+
+    #cover-text {
+        padding: 10px 0 0 10px; 
+        bottom: 0;
+    }
+
+    #cover-text h2 {
+        font-size: small;
     }
 
     .carousel-inner img {
@@ -883,7 +911,7 @@ a {
     #gallery-section {
         padding-top: 0;
     }
-    
+
     .image-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(134px, 1fr));
