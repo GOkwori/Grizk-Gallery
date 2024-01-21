@@ -256,6 +256,12 @@ a {
 }
 
 /*Styling images on gallery page*/
+#gallery-section {
+    padding-top: 60px;
+    min-height: 93vh;
+    overflow-x: hidden;
+}
+
 .image-container {
     margin-bottom: 10px;
 }
@@ -417,6 +423,10 @@ a {
         width: auto;
     }
 
+    #gallery-section {
+        padding-top: 0;
+    }
+
     .image-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -545,6 +555,10 @@ a {
 
     #latest-release {
         width: auto;
+    }
+
+    #gallery-section {
+        padding-top: 0;
     }
 
     .image-grid {
@@ -709,6 +723,10 @@ a {
         padding: 0 10px 0 10px;
     }
 
+    #gallery-section {
+        padding-top: 0;
+    }
+
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
@@ -857,12 +875,15 @@ a {
         margin-bottom: 20px;
     }
 
-
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
     }
 
+    #gallery-section {
+        padding-top: 0;
+    }
+    
     .image-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(134px, 1fr));
