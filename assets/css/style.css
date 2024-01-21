@@ -149,7 +149,7 @@ a {
 }
 
 #cover-text h2 {
-    color: rgb(255, 0, 0);
+    color: rgba(40, 4, 52, 0.964);
     font-size: larger;
     text-decoration: dotted;
 }

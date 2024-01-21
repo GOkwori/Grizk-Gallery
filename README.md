@@ -112,7 +112,7 @@ The Grizk Official Website aims to create an engaging and informative platform f
 
 ### Colour Scheme
 
-In the design of the art gallery website, I've intentionally selected a colour scheme dominated by `#fafafa`, `rgb(255, 0, 0)` and `#4b4453` to complement the background image. The soft `#fafafa` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#4b4453` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
+In the design of the art gallery website, I've intentionally selected a colour scheme dominated by `#fafafa`, `rgba(40, 4, 52, 0.964)` and `#4b4453` to complement the background image. The soft `#fafafa` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#4b4453` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
 
 
 ### Typography
