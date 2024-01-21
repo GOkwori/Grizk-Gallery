@@ -374,14 +374,21 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 ## Credits
 
 ### Code Used
-
+| No | Component | Comment | Source | Code Snippet | 
+| --- | --- | --- | --- | --- |
+| 1 |  Navs & Tabs | This code was used and modified into my own for the navigation menu of my web pages | [Bootstrap](https://getbootstrap.com/docs/5.3/components/navs-tabs/) | ![Boostrap](documentation/codes/code-1.png) |
+| 2 |  Carousel | This code was used and modified into my own for the carousel section of my home page | [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/) | ![Boostrap](documentation/codes/code-2.png) |
+| 3 |  Social media links | This code was used and modified into my own for the footer section of my web pages | [Codeinstitute](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html) | ![Codeinstitute](documentation/codes/code-3.png) |
+| 4 |  Form | This code was used and modified into my own for the booking form of my booking page | [Bootstrap](https://getbootstrap.com/docs/5.3/forms/form-control/) | ![Boostrap](documentation/codes/code-4.png) |
 
 
 ### Content
-
-
-### Media
-
+| No | Content | Remark | Source | Screenshot |
+| --- | --- | --- | --- | --- |
+| 1 | Logo | The icon used for my logo was gotten from fontawesome| [Font Awesome](https://fontawesome.com/v4/icons/)| ![Logo](documentation/content/logo.png)|
+| 2 | Gallery images | All images used for my thumbnails, carousel and gallery were sourced from wallpaper flare| [Wallpaper Flare](https://www.wallpaperflare.com/)| ![Image Thumbnails](documentation/content/images.png)|
+| 3 | Location images | All images used for my location thumbnails on the home page were sourced from google| [Google](https://www.google.com/search?q=exhibition+artwork&oq=exhibition+art&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCTY4MDMwajBqOagCALACAA&sourceid=chrome&ie=UTF-8#vhid=_eboff4_-joQnM&vssid=l/)| ![Image Thumbnails](documentation/content/location.png)|
+| 4 | Exhibition images | All images used on exhibition page were sourced from stock images| [Stock Images](https://stock.adobe.com)| ![Exhibition Thumbnails](documentation/content/exhibition.png)|
 
 
 ### Acknowledgments
@@ -389,3 +396,4 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 I would like to acknowledge:
 
 * Jubril Akolade - My Code Institute Mentor.
+* The Code Institute Slack channel Peer Code Review
