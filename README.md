@@ -51,7 +51,6 @@ Embark on a journey into artistic expression at Grizk, a vibrant hub of contempo
 
 * [Testing](#testing)
   * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
   
 * [Credits](#credits)
   * [Code Used](#code-used)
