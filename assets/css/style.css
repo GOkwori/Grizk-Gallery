@@ -6,7 +6,7 @@
     --header-text: 'Dancing Script', cursive;
     --content-text: 'Roboto Serif', serif;
     /*---------- COLOURS ----------*/
-    --white: #fafafa, #4b4453;
+    --color: #fafafa, #4b4453, rgba(0, 0, 0);
 }
 
 /* Removes all margins & Padding on everything so they can be fully customised */
@@ -131,6 +131,7 @@ a {
 }
 
 /*---------- SEMANTIC SECTION ----------*/
+
 /*Styling for carousel container on home page*/
 #carousel-container {
     margin-top: 20px;
@@ -265,8 +266,8 @@ a {
 }
 
 #location-thumbnail img {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
     margin-right: 20px;
@@ -280,6 +281,7 @@ a {
     font-family: 'Roboto Serif', serif;
     text-align: center;
     padding-top: 5px;
+    font-size: x-small;
 }
 
 /*Styling images on gallery page*/
@@ -297,12 +299,6 @@ a {
     background-color: #fafafa;
     padding: 10px 5px 5px 0;
     margin: 20px 15px;
-}
-
-/*Styling secondary navigation menu on gallery page*/
-#nav-container-sec {
-    padding-left: 0;
-    margin-left: 0;
 }
 
 /*Styling exhibition content on exhibition page*/
@@ -341,6 +337,54 @@ a {
     font-size: 13px;
 }
 
+/*Styling thank-you page*/
+
+#thank-you-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.thank-you-container {
+    display: block;
+}
+
+#thank-you-button {
+    text-align: center;
+}
+
+#thank-you-button button {
+    margin-top: 10px;
+    font-size: small;
+}
+
+/*Styling coming-soon page*/
+
+#coming-soon-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.coming-soon-container {
+    display: block;
+}
+
+#coming-soon-button {
+    text-align: center;
+}
+
+#coming-soon-button button {
+    margin-top: 10px;
+    font-size: small;
+}
+
 /*---------- SEMANTIC FOOTER ----------*/
 #footer-p {
     font-size: 10px;
@@ -350,6 +394,9 @@ a {
     display: flex;
     align-items: center;
 }
+
+
+/*Styling social-media links in footer*/
 
 .social-media li a i {
     color: #4b4453;
@@ -380,52 +427,14 @@ a {
     padding-top: 20px;
 }
 
-#thank-you-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-}
-
-.thank-you-container {
-    display: block;
-}
-
-#thank-you-button {
-    text-align: center;
-}
-
-#thank-you-button button {
-    margin-top: 10px;
-    font-size: small;
-}
-
-#coming-soon-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-}
-
-.coming-soon-container {
-    display: block;
-}
-
-#coming-soon-button {
-    text-align: center;
-}
-
-#coming-soon-button button {
-    margin-top: 10px;
-    font-size: small;
-}
-
 /*----MEDIA QUERIES----*/
+
+/*---------- Styling for screens with (min-width: 320px) and (max-width: 575px) ----------*/
+
 @media (min-width: 320px) and (max-width: 575px) {
+
+    /*---------- Styling for the website ----------*/
+
     body {
         background: url(../images/abstract/1.webp);
         background-color: #4b4453;
@@ -435,6 +444,7 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling the header container ----------*/
     header {
         padding: 10px 0 0 0;
         position: relative;
@@ -442,17 +452,7 @@ a {
         overflow-x: hidden;
     }
 
-    section {
-        padding-top: 0;
-        margin-top: 0;
-        min-height: 85vh;
-        overflow-x: hidden;
-    }
-
-    footer {
-        overflow-x: hidden;
-    }
-
+    /*---------- Typography ----------*/
     #h1-container {
         padding-left: 0;
     }
@@ -470,17 +470,32 @@ a {
         font-weight: 800;
     }
 
+    /*---------- Styling section ----------*/
+    section {
+        padding-top: 0;
+        margin-top: 0;
+        min-height: 85vh;
+        overflow-x: hidden;
+    }
+
+    /*---------- Styling Carousel on home page ----------*/
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
         height: fit-content;
     }
 
+    .carousel-inner img {
+        height: 350px;
+    }
+
+    /*---------- Styling cover text for carousel on home page ----------*/
     #cover-text {
         padding: 10px 0 0 10px;
         bottom: 0;
     }
 
+    /*---------- Typography for carousel cover text  on home page ----------*/
     #cover-text h2 {
         font-size: small;
     }
@@ -494,16 +509,14 @@ a {
         font-size: small;
     }
 
-    .carousel-inner img {
-        height: 350px;
-    }
-
+    /*---------- Styling container holding latest release and exhibition list sections----------*/
     #inner-section {
         height: auto;
         width: auto;
         display: block;
     }
 
+    /*---------- Styling latest release section----------*/
     #latest-release {
         width: auto;
     }
@@ -519,6 +532,7 @@ a {
         padding: 0 10px 0 10px;
     }
 
+    /*---------- Styling exhibition list section----------*/
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
@@ -550,10 +564,12 @@ a {
         font-size: xx-small;
     }
 
+    /*---------- Styling container holding location section on home page----------*/
     #second-section {
         margin-left: 10px;
     }
 
+    /*---------- Styling location thumbnails on home page----------*/
     #location-thumbnail img {
         height: 70px;
         width: 70px;
@@ -571,17 +587,8 @@ a {
         font-size: xx-small;
     }
 
-    #footer-p {
-        font-size: 5px;
-    }
 
-    .social-media li a i {
-        width: 15px;
-        height: 15px;
-        padding: 5px 0;
-        border-radius: 50%;
-    }
-
+    /*---------- Styling location thumbnails on home page----------*/
     #h2-container {
         margin-top: 10px;
     }
@@ -593,9 +600,29 @@ a {
     #section-container {
         display: block;
     }
+
+    /*---------- Styling footer----------*/
+    footer {
+        overflow-x: hidden;
+    }
+
+    #footer-p {
+        font-size: 5px;
+    }
+
+    .social-media li a i {
+        width: 15px;
+        height: 15px;
+        padding: 5px 0;
+        border-radius: 50%;
+    }
 }
 
+/*---------- Styling for screens with (min-width: 576px) and (max-width: 766px) ----------*/
+
 @media (min-width: 576px) and (max-width: 766px) {
+
+    /*---------- Styling for the website ----------*/
     body {
         background: url(../images/abstract/1.webp);
         background-color: #4b4453;
@@ -605,6 +632,7 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling for header ----------*/
     header {
         padding: 10px 0;
         position: relative;
@@ -612,16 +640,14 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling for section ----------*/
     section {
         padding-top: 0;
         min-height: 88vh;
         overflow-x: hidden;
     }
 
-    footer {
-        overflow-x: hidden;
-    }
-
+    /*---------- Styling for carousel on home page ----------*/
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
@@ -638,6 +664,7 @@ a {
         margin: 0 10px
     }
 
+    /*---------- Styling for latest release section on home page ----------*/
     #latest-release {
         width: auto;
     }
@@ -653,6 +680,7 @@ a {
         padding: 0 10px 0 10px;
     }
 
+    /*---------- Styling for upcoming exhibition section on home page ----------*/
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
@@ -684,6 +712,7 @@ a {
         font-size: xx-small;
     }
 
+    /*---------- Styling for location section on home page ----------*/
     #second-section {
         margin-left: 10px;
     }
@@ -705,16 +734,7 @@ a {
         font-size: xx-small;
     }
 
-    #footer-p {
-        font-size: 5px;
-    }
-
-    .social-media li a i {
-        width: 15px;
-        height: 15px;
-        padding: 5px 0;
-        border-radius: 50%;
-    }
+    /*---------- Styling for exhibbition page ----------*/
 
     #h2-container {
         margin-top: 10px;
@@ -729,10 +749,12 @@ a {
         padding: 0 10px;
     }
 
+    /*---------- Styling for booking page ----------*/
     .form-control {
         width: 290%;
     }
 
+    /*---------- Styling for thank-you page ----------*/
     #thank-you-body {
         display: flex;
         align-items: center;
@@ -756,6 +778,7 @@ a {
         font-size: small;
     }
 
+    /*---------- Styling for coming-soon page ----------*/
     #coming-soon-body {
         display: flex;
         align-items: center;
@@ -778,9 +801,29 @@ a {
         margin-top: 10px;
         font-size: small;
     }
+
+    /*---------- Styling for footer ----------*/
+    footer {
+        overflow-x: hidden;
+    }
+
+    #footer-p {
+        font-size: 5px;
+    }
+
+    .social-media li a i {
+        width: 15px;
+        height: 15px;
+        padding: 5px 0;
+        border-radius: 50%;
+    }
+
 }
 
+/*---------- Styling for screens with (min-width: 768px) and (max-width: 820px) ----------*/
 @media (min-width: 768px) and (max-width: 820px) {
+
+    /*---------- Styling for website ----------*/
     body {
         background: url(../images/abstract/1.webp);
         background-color: #4b4453;
@@ -790,6 +833,7 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling for header ----------*/
     header {
         padding: 10px 0;
         position: relative;
@@ -797,22 +841,22 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling for section ----------*/
+
     section {
         padding-top: 0;
         min-height: 88vh;
         overflow-x: hidden;
     }
 
-    footer {
-        overflow-x: hidden;
-    }
-
+    /*---------- Styling for carousel on home page ----------*/
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
         height: fit-content;
     }
 
+    /*---------- Styling for container holding latest release & upcoming exhibition sections on home page ----------*/
     #inner-section {
         height: auto;
         width: auto;
@@ -820,6 +864,7 @@ a {
         margin: 0 10px;
     }
 
+    /*---------- Styling for latest release section on home page ----------*/
     #latest-release {
         width: auto;
     }
@@ -835,6 +880,7 @@ a {
         padding-top: 0;
     }
 
+    /*---------- Styling for upcoming exhibition section on home page ----------*/
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
@@ -866,6 +912,7 @@ a {
         font-size: xx-small;
     }
 
+    /*---------- Styling for location section on home page ----------*/
     #location-thumbnail img {
         height: 100px;
         width: 100px;
@@ -883,17 +930,7 @@ a {
         font-size: xx-small;
     }
 
-    #footer-p {
-        font-size: 5px;
-    }
-
-    .social-media li a i {
-        width: 15px;
-        height: 15px;
-        padding: 5px 0;
-        border-radius: 50%;
-    }
-
+    /*---------- Styling for exhibition page ----------*/
     #h2-container {
         margin-top: 10px;
     }
@@ -906,6 +943,7 @@ a {
         display: block;
     }
 
+    /*---------- Styling for booking page ----------*/
     .form-select {
         width: 200%;
     }
@@ -914,6 +952,7 @@ a {
         width: 200%;
     }
 
+    /*---------- Styling for thank-you page ----------*/
     #thank-you-body {
         display: flex;
         align-items: center;
@@ -937,6 +976,7 @@ a {
         font-size: small;
     }
 
+    /*---------- Styling for coming-soon page ----------*/
     #coming-soon-body {
         display: flex;
         align-items: center;
@@ -959,9 +999,29 @@ a {
         margin-top: 10px;
         font-size: small;
     }
+
+    /*---------- Styling for footer ----------*/
+    footer {
+        overflow-x: hidden;
+    }
+
+    #footer-p {
+        font-size: 5px;
+    }
+
+    .social-media li a i {
+        width: 15px;
+        height: 15px;
+        padding: 5px 0;
+        border-radius: 50%;
+    }
 }
 
+
+/*---------- Styling for screens with (min-width: 821px) and (max-width: 1024px) ----------*/
 @media (min-width: 821px) and (max-width: 1024px) {
+
+    /*---------- Styling for web pages ----------*/
     body {
         background: url(../images/abstract/1.webp);
         background-color: #4b4453;
@@ -971,6 +1031,7 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling for header ----------*/
     header {
         padding: 10px 0;
         position: relative;
@@ -978,12 +1039,14 @@ a {
         overflow-x: hidden;
     }
 
+    /*---------- Styling for section ----------*/
     section {
         padding-top: 0;
         min-height: 91vh;
         overflow-x: hidden;
     }
 
+    /*---------- Styling for carousel on home page ----------*/
     #carousel-container {
         margin: 20px 0 20px 0;
         position: relative;
@@ -994,6 +1057,7 @@ a {
         height: 600px;
     }
 
+    /*---------- Styling for container holding latest release & upcoming exhibition sections on home page ----------*/
     #inner-section {
         height: auto;
         width: auto;
@@ -1001,16 +1065,19 @@ a {
         margin: 0 10px;
     }
 
+    /*---------- Styling for latest release section on home page ----------*/
     #latest-release {
         width: auto;
         margin-bottom: 20px;
     }
 
+    /*---------- Styling for upcoming exhibition on home page ----------*/
     #exhibition-list {
         width: 100%;
         margin-bottom: 10px;
     }
 
+    /*---------- Styling for gallery page ----------*/
     #gallery-section {
         padding-top: 0;
     }
@@ -1021,6 +1088,8 @@ a {
         gap: 10px;
         padding: 0 10px 0 10px;
     }
+
+    /*---------- Styling for exhibition page ----------*/
 
     #h2-container {
         margin-top: 10px;
@@ -1039,6 +1108,7 @@ a {
         display: block;
     }
 
+    /*---------- Styling for booking page ----------*/
     .form-select {
         width: 200%;
     }
@@ -1047,6 +1117,7 @@ a {
         width: 200%;
     }
 
+    /*---------- Styling for thank-you page ----------*/
     #thank-you-body {
         display: flex;
         align-items: center;
@@ -1069,6 +1140,7 @@ a {
         font-size: small;
     }
 
+    /*---------- Styling for coming-soon page ----------*/
     #coming-soon-body {
         display: flex;
         align-items: center;
